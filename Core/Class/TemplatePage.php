@@ -42,12 +42,13 @@ class TemplatePage
 	var $objUtilities;
 	var $pageProperties;
     var $render;
-    
+    var $slogan;
 
 	function TemplatePage($id_page){
         
 		$this->objUtilities = new Utilities();
 		$this->idPage=$this->objUtilities->idPage($id_page);
+        $this->slogan=$this->objUtilities->setupConfig();
 		$this->pageProperties=$this->objUtilities->pageProperties($this->idPage);
 		$this->title=$this->pageProperties['title'];
 		$this->tipo=$this->pageProperties['tipo'];
@@ -64,6 +65,7 @@ class TemplatePage
 ?>
 		<!DOCTYPE html>
 		<html>
+		<html>
 			<head>
 
 				<meta charset="UTF-8"/>
@@ -71,65 +73,9 @@ class TemplatePage
 
                 <title><?php echo $this->title ?></title>
 
-				<!-- Propias -->
-				
-                <link href="../Styles/nabu.css" rel=stylesheet type=text/css>
-				<link rel="icon" type="image/x-icon" href="../Images/logo.ico"/>
-                    
-          		<!-- dependencies (jquery, handlebars and bootstrap) -->
-                
-                <script type="text/javascript" src="../Framework/jquery/dist/jquery.min.js"></script>
-                
-               
-				<script type="text/javascript" src="../Framework/handlebars/handlebars.min.js"></script>
-				<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-                <link type="text/css" href="../Framework/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
-				
-                <!-- alpaca -->
-				
-                <link type="text/css" href="../Framework/alpaca/dist/alpaca/bootstrap/alpaca.min.css" rel="stylesheet"/>
-				<script type="text/javascript" src="../Framework/alpaca/dist/alpaca/bootstrap/alpaca.min.js"></script>
-                
-				<!-- Menu -->
-			    
-                <script src="../Framework/mmenu/src/js/jquery.mmenu.min.js" type="text/javascript"></script>
-   				<link href="../Framework/mmenu/src/css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
-   				<link type="../Framework/mmenu/src/css/extensions/jquery.mmenu.iconbar.css" rel="stylesheet" />
-				<link type="text/css" rel="stylesheet" href="../Styles/menuNabu.css" />
-				<link type="text/css" href="../Framework/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-                
-                <!-- Tables -->
-                
-                <!--http://www.datatables.net/ -->
-                <link type="text/css" rel="stylesheet" href="../Framework/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" />
-                <script type="text/javascript" src="../Framework/datatables/media/js/jquery.dataTables.min.js"></script>
-                
-                <!-- Datagrid -->
-                
-                <link rel='stylesheet' type='text/css' media='screen' href='../Framework/Datagrid/lib/js/themes/cobo/jquery-ui.custom.css'></link>
-                <link rel='stylesheet' type='text/css' media='screen' href='../Framework/Datagrid/lib/js/jqgrid/css/ui.jqgrid.css'></link>
-				
-                <script src='../Framework/Datagrid/lib/js/jqgrid/js/i18n/grid.locale-es.js' type='text/javascript'></script>
-				<script src='../Framework/Datagrid/lib/js/themes/jquery-ui.custom.min.js' type='text/javascript'></script>
-                <script src='../Framework/Datagrid/lib/js/jqgrid/js/jquery.jqGrid.min.js' type='text/javascript'></script>
-				
-                <!-- Charts -->
-                <script src="../Framework/Chart.js/Chart.js" type='text/javascript'></script>
+                <!-- Atributos Pagina -->
+                <?php $this->objUtilities->pageAttribute($this->idPage);?>
 
-                <!-- jQuery UI Support -->
-                <script type="text/javascript" src="../Framework/jquery-ui/jquery-ui.min.js"></script>
-
-                <script type="text/javascript">
-                    $(function() {
-                        $("nav#menu").mmenu(
-                            {
-                                slidingSubmenus: false,
-                                "classes": "mm-light"
-                            })
-                    ;}
-                     );
-                </script>        
-            
             </head>
 <?php
     }
@@ -145,7 +91,7 @@ class TemplatePage
 					<td colspan="1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="../Images/logo.png" ></td>
 				</tr>
 				<tr>
-					<td class="slogan">&nbsp&nbsp Software Administardor Empresas de Transporte</td>
+					<td class="slogan">&nbsp&nbsp<?php echo $this->slogan ?></td>
 				</tr>
 			</table>
 		</header>

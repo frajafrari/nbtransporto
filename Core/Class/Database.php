@@ -101,9 +101,18 @@ THE SOFTWARE.
             return $this->executeQueryOneRow($sql);   
         }
         
+        function getsetupConfig(){
+            $sql = "SELECT NB_SLOGAN_TBL FROM NB_CONFIG_TBL";
+            return $this->executeQueryOneRow($sql); 
+        }
         function getPageProperties($idPage){
             $sql = "SELECT NB_PAGE_TITLE_FLD title,NB_PAGE_STYLE_FLD style,NB_PAGE_TRACE_FLD trace,NB_PAGE_TYPE_FLD tipo FROM NB_PAGES_TBL WHERE NB_ID_PAGE_FLD='$idPage'";
             return $this->executeQueryOneRow($sql);   
+        }
+        
+        function getPageAttribute($idPage){
+            $sql = "SELECT B.NB_ATTRIBUTE_FLD,B.NB_URL_FLD,B.NB_TYPE_FLD,B.NB_REL_FLD FROM   NB_PAGEATTRIBUTE_TBL A, NB_HTMLATTRIBUTE_TBL B WHERE  A.NB_ID_ATTRIBUTE_FLD = B.NB_ID_ATTRIBUTE_FLD AND A.NB_ID_PAGE_FLD ='$idPage' ORDER BY A.NB_ID_ATTRIBUTE_FLD ASC";
+            return $this->executeQuery($sql);
         }
         
         function getSchemaDescription($idPage){

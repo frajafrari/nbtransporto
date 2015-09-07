@@ -95,8 +95,33 @@ class Utilities
 	
     }
     
+    function setupConfig(){
+          $row = $this->database->getsetupConfig();
+          return $row[0];
+    }
+    
     function pageProperties($id){
         return $this->database->getPageProperties($id);
+    }
+    
+    
+    function pageAttribute($id){
+        $rows =$this->database->getPageAttribute($id);
+        $comillas='"';
+        
+        foreach($rows as $row){
+            
+            echo chr(9).chr(9);  
+            if ($row[0] == 'link' )
+                echo '<link type='.$comillas.$row[2].$comillas.' href='.$comillas.$row[1].$comillas.' rel='.$comillas.$row[3].$comillas.'/>';
+            if ($row[0] == 'script')
+                echo '<script type='.$comillas.$row[2].$comillas.' src='.$comillas.$row[1].$comillas.'></script>';
+        }
+        
+       if ( $id <> 'login' )
+            echo '<script type="text/javascript">$(function() {$("nav#menu").mmenu({slidingSubmenus: false,"classes": "mm-light"});});</script>';
+        
+        
     }
     
 	function getSchema($id){
@@ -191,8 +216,6 @@ class Utilities
         return $view;
             
     }
-    
-    
     
     function getOption($id){
 		

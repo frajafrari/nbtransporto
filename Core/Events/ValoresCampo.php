@@ -51,7 +51,7 @@ include "../Class/Conexion.php";
                 $sql="Select nb_id_country_fld,nb_desc_fld from nb_country_tbl";
             else
                 if ($valores[0] == 'state')
-                    $sql="Select cc_codigoDept_fld,cc_descripc_fld from nb_state_tbl where nb_id_country_fld='".$valores[1]."'"; 
+                    $sql="Select cc_codigoDept_fld,cc_descripc_fld from nb_state_tbl"; 
                 else
                     if ($campo == 'city')
                         $sql="Select cc_codCiudad_fld,cc_descripc_fld from nb_city_tbl";
