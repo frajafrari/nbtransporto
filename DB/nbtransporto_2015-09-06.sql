@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.6.21)
 # Database: nbtransporto
-# Generation Time: 2015-09-06 03:48:41 +0000
+# Generation Time: 2015-09-07 03:13:51 +0000
 # ************************************************************
 
 
@@ -67,7 +67,7 @@ LOCK TABLES `nb_city_tbl` WRITE;
 
 INSERT INTO `nb_city_tbl` (`nb_id_country_fld`, `cc_codigoDept_fld`, `cc_codCiudad_fld`, `cc_descripc_fld`)
 VALUES
-	(57,1,1010,'Otros Municipios'),
+	(57,1,1010,'Otros'),
 	(57,5,5001,'Medellin'),
 	(57,5,5002,'Abejorral'),
 	(57,5,5004,'Abriaqui'),
@@ -90,13 +90,13 @@ VALUES
 	(57,5,5091,'Betania'),
 	(57,5,5093,'Betulia '),
 	(57,5,5101,'Ciudad Bolivar'),
-	(57,5,5107,'Briceño '),
+	(57,5,5107,'Briceno '),
 	(57,5,5113,'Buritica'),
 	(57,5,5120,'Caceres'),
 	(57,5,5125,'Caicedo'),
 	(57,5,5129,'Caldas '),
 	(57,5,5134,'Campamento'),
-	(57,5,5138,'CañasGordas'),
+	(57,5,5138,'Canasgordas'),
 	(57,5,5142,'Caracoli'),
 	(57,5,5145,'Caramanta'),
 	(57,5,5147,'Carepa'),
@@ -140,11 +140,11 @@ VALUES
 	(57,5,5467,'Montebello'),
 	(57,5,5475,'Murindo'),
 	(57,5,5480,'Mutata'),
-	(57,5,5483,'Nariño '),
+	(57,5,5483,'Narino '),
 	(57,5,5490,'Necocli '),
 	(57,5,5495,'Nechi'),
 	(57,5,5501,'Olaya'),
-	(57,5,5541,'Peñol'),
+	(57,5,5541,'Penol'),
 	(57,5,5543,'Peque'),
 	(57,5,5576,'Pueblorrico'),
 	(57,5,5579,'Puerto Berrio'),
@@ -160,7 +160,7 @@ VALUES
 	(57,5,5649,'San Carlos '),
 	(57,5,5652,'San Francisco '),
 	(57,5,5656,'San Jeronimo'),
-	(57,5,5658,'San Jose De La Montaña'),
+	(57,5,5658,'San Jose De La Montana'),
 	(57,5,5659,'San Juan De Uraba'),
 	(57,5,5660,'San Luis '),
 	(57,5,5664,'San Pedro '),
@@ -225,45 +225,45 @@ VALUES
 	(57,13,13062,'Arroyohondo'),
 	(57,13,13074,'Barranco De Loba'),
 	(57,13,13132,'No Utilizar'),
-	(57,13,13140,'CALAMAR'),
-	(57,13,13160,'CANTAGALLO'),
-	(57,13,13188,'CICUCO'),
-	(57,13,13212,'CORDOBA'),
-	(57,13,13222,'CLEMENCIA'),
-	(57,13,13244,'EL CARMEN DE BOLIVAR'),
-	(57,13,13248,'EL GUAMO'),
-	(57,13,13268,'EL PEÑON'),
-	(57,13,13300,'HATILLO DE LOBA'),
+	(57,13,13140,'Calamar'),
+	(57,13,13160,'Cantagallo'),
+	(57,13,13188,'Cicuco'),
+	(57,13,13212,'Cordoba'),
+	(57,13,13222,'Clemencia'),
+	(57,13,13244,'El Carmen De Bolivar'),
+	(57,13,13248,'El Guamo'),
+	(57,13,13268,'El Penon'),
+	(57,13,13300,'Hatillo De Loba'),
 	(57,13,13430,'Magangue '),
-	(57,13,13433,'MAHATES'),
-	(57,13,13440,'MARGARITA'),
-	(57,13,13442,'MARIA LA BAJA'),
-	(57,13,13458,'MONTECRISTO'),
+	(57,13,13433,'Mahates'),
+	(57,13,13440,'Margarita'),
+	(57,13,13442,'Maria La Baja'),
+	(57,13,13458,'Montecristo'),
 	(57,13,13468,'Mompos'),
-	(57,13,13473,'MORALES'),
-	(57,13,13490,'NOROSI'),
-	(57,13,13549,'PINILLOS'),
-	(57,13,13580,'REGIDOR'),
-	(57,13,13600,'RIO VIEJO'),
-	(57,13,13620,'SAN CRISTOBAL'),
-	(57,13,13647,'SAN ESTANISLAO'),
-	(57,13,13650,'SAN FERNANDO'),
-	(57,13,13654,'SAN JACINTO'),
-	(57,13,13655,'SAN JACINTO DEL CAUCA'),
-	(57,13,13657,'SAN JUAN NEPOMUCENO'),
-	(57,13,13667,'SAN MARTIN DE LOBA'),
+	(57,13,13473,'Morales'),
+	(57,13,13490,'Norosi'),
+	(57,13,13549,'Pinillos'),
+	(57,13,13580,'Regidor'),
+	(57,13,13600,'Rio Viejo'),
+	(57,13,13620,'San Cristobal'),
+	(57,13,13647,'San Estanislao'),
+	(57,13,13650,'San Fernando'),
+	(57,13,13654,'San Jacinto'),
+	(57,13,13655,'San Jacinto Del Cauca'),
+	(57,13,13657,'San Juan Nepomuceno'),
+	(57,13,13667,'San Martin De Loba'),
 	(57,13,13670,'San Pablo '),
-	(57,13,13673,'SANTA CATALINA'),
-	(57,13,13683,'SANTA ROSA'),
-	(57,13,13688,'Santa Rosa del Sur'),
-	(57,13,13744,'SIMITI'),
-	(57,13,13760,'SOPLAVIENTO'),
-	(57,13,13780,'TALAIGUA NUEVO'),
-	(57,13,13810,'TIQUISIO'),
-	(57,13,13836,'TURBACO'),
-	(57,13,13838,'TURBANA'),
-	(57,13,13873,'VILLANUEVA'),
-	(57,13,13894,'ZAMBRANO'),
+	(57,13,13673,'Santa Catalina'),
+	(57,13,13683,'Santa Rosa'),
+	(57,13,13688,'Santa Rosa Del Sur'),
+	(57,13,13744,'Simiti'),
+	(57,13,13760,'Soplaviento'),
+	(57,13,13780,'Talaigua Nuevo'),
+	(57,13,13810,'Tiquisio'),
+	(57,13,13836,'Turbaco'),
+	(57,13,13838,'Turbana'),
+	(57,13,13873,'Villanueva'),
+	(57,13,13894,'Zambrano'),
 	(57,15,15001,'Tunja'),
 	(57,15,15022,'Almeida'),
 	(57,15,15047,'Aquitania'),
@@ -273,7 +273,7 @@ VALUES
 	(57,15,15092,'Beteitiva'),
 	(57,15,15097,'Boavita'),
 	(57,15,15104,'Boyaca'),
-	(57,15,15106,'Briceño '),
+	(57,15,15106,'Briceno '),
 	(57,15,15109,'Buenavista '),
 	(57,15,15114,'Busbanza'),
 	(57,15,15131,'Caldas '),
@@ -353,7 +353,7 @@ VALUES
 	(57,15,15681,'San Pablo De Borbur'),
 	(57,15,15686,'Santana'),
 	(57,15,15690,'Santa Maria '),
-	(57,15,15693,'Santa Rosa de Viterbo'),
+	(57,15,15693,'Santa Rosa De Viterbo'),
 	(57,15,15696,'Santa Sofia'),
 	(57,15,15720,'Sativanorte'),
 	(57,15,15723,'Sativasur'),
@@ -415,24 +415,24 @@ VALUES
 	(57,17,17873,'Villamaria'),
 	(57,17,17877,'Viterbo'),
 	(57,18,18001,'Florencia '),
-	(57,18,18029,'ALBANIA'),
+	(57,18,18029,'Albania'),
 	(57,18,18094,'Belen Andaquies'),
-	(57,18,18150,'Cartagena del Chaira'),
-	(57,18,18205,'CURILLO'),
+	(57,18,18150,'Cartagena Del Chaira'),
+	(57,18,18205,'Curillo'),
 	(57,18,18247,'Doncello'),
 	(57,18,18256,'Paujil '),
 	(57,18,18290,'No Utilizar'),
-	(57,18,18410,'LA MONTAÑITA'),
-	(57,18,18460,'MILAN'),
-	(57,18,18479,'MORELIA'),
+	(57,18,18410,'La Montanita'),
+	(57,18,18460,'Milan'),
+	(57,18,18479,'Morelia'),
 	(57,18,18592,'Puerto Rico '),
-	(57,18,18610,'SAN JOSE DEL FRAGUA'),
-	(57,18,18753,'San Vicente del Caguan'),
-	(57,18,18756,'SOLANO'),
-	(57,18,18785,'SOLITA'),
+	(57,18,18610,'San Jose Del Fragua'),
+	(57,18,18753,'San Vicente Del Caguan'),
+	(57,18,18756,'Solano'),
+	(57,18,18785,'Solita'),
 	(57,18,18860,'Valparaiso-Caqueta'),
-	(57,19,1901,'19050 - El Mango'),
-	(57,19,1902,'19050 - El Plateado'),
+	(57,19,1901,'El Mango'),
+	(57,19,1902,'El Plateado'),
 	(57,19,19001,'Popayan'),
 	(57,19,19022,'Almaguer'),
 	(57,19,19050,'Argelia '),
@@ -506,31 +506,31 @@ VALUES
 	(57,23,23090,'Canalete'),
 	(57,23,23162,'Cerete'),
 	(57,23,23168,'Chima '),
-	(57,23,23182,'CHINU'),
-	(57,23,23189,'CIENAGA DE ORO'),
-	(57,23,23300,'COTORRA'),
-	(57,23,23350,'LA APARTADA'),
-	(57,23,23417,'LORICA'),
-	(57,23,23419,'LOS CORDOBAS'),
-	(57,23,23464,'MOMIL'),
-	(57,23,23466,'MONTELIBANO'),
-	(57,23,23500,'MOÑITOS'),
-	(57,23,23555,'PLANETA RICA'),
-	(57,23,23570,'PUEBLO NUEVO'),
-	(57,23,23574,'PUERTO ESCONDIDO'),
+	(57,23,23182,'Chinu'),
+	(57,23,23189,'Cienaga De Oro'),
+	(57,23,23300,'Cotorra'),
+	(57,23,23350,'La Apartada'),
+	(57,23,23417,'Lorica'),
+	(57,23,23419,'Los Cordobas'),
+	(57,23,23464,'Momil'),
+	(57,23,23466,'Montelibano'),
+	(57,23,23500,'Monitos'),
+	(57,23,23555,'Planeta Rica'),
+	(57,23,23570,'Pueblo Nuevo'),
+	(57,23,23574,'Puerto Escondido'),
 	(57,23,23580,'Puerto Libertador'),
-	(57,23,23586,'PURISIMA'),
-	(57,23,23660,'SAHAGUN'),
-	(57,23,23670,'SAN ANDRES DE SOTAVENTO'),
-	(57,23,23672,'SAN ANTERO'),
-	(57,23,23675,'SAN BERNARDO DEL VIENTO'),
-	(57,23,23678,'SAN CARLOS'),
-	(57,23,23682,'SAN JOSE DE URE'),
-	(57,23,23686,'SAN PELAYO'),
-	(57,23,23807,'TIERRALTA'),
-	(57,23,23815,'TUCHIN'),
-	(57,23,23855,'VALENCIA'),
-	(57,25,25001,'Agua de Dios'),
+	(57,23,23586,'Purisima'),
+	(57,23,23660,'Sahagun'),
+	(57,23,23670,'San Andres De Sotavento'),
+	(57,23,23672,'San Antero'),
+	(57,23,23675,'San Bernardo Del Viento'),
+	(57,23,23678,'San Carlos'),
+	(57,23,23682,'San Jose De Ure'),
+	(57,23,23686,'San Pelayo'),
+	(57,23,23807,'Tierralta'),
+	(57,23,23815,'Tuchin'),
+	(57,23,23855,'Valencia'),
+	(57,25,25001,'Agua De Dios'),
 	(57,25,25019,'Alban '),
 	(57,25,25035,'Anapoima'),
 	(57,25,25040,'Anolaima'),
@@ -539,7 +539,7 @@ VALUES
 	(57,25,25095,'Bituima'),
 	(57,25,25099,'Bojaca'),
 	(57,25,25120,'Cabrera '),
-	(57,25,25123,'Cachipày'),
+	(57,25,25123,'Cachipay'),
 	(57,25,25126,'Cajica'),
 	(57,25,25148,'Caparrapi'),
 	(57,25,25151,'Caqueza'),
@@ -553,7 +553,7 @@ VALUES
 	(57,25,25214,'Cota'),
 	(57,25,25224,'Cucunuba'),
 	(57,25,25245,'El Colegio'),
-	(57,25,25258,'El Peñon'),
+	(57,25,25258,'El Penon'),
 	(57,25,25260,'El Rosal'),
 	(57,25,25269,'Facatativa'),
 	(57,25,25279,'Fomeque'),
@@ -580,7 +580,7 @@ VALUES
 	(57,25,25377,'La Calera'),
 	(57,25,25386,'La Mesa'),
 	(57,25,25394,'La Palma '),
-	(57,25,25398,'La Peña'),
+	(57,25,25398,'La Pena'),
 	(57,25,25402,'La Vega '),
 	(57,25,25407,'Lenguazaque'),
 	(57,25,25426,'Macheta'),
@@ -588,7 +588,7 @@ VALUES
 	(57,25,25436,'Manta'),
 	(57,25,25438,'Medina'),
 	(57,25,25473,'Mosquera '),
-	(57,25,25483,'Nariño '),
+	(57,25,25483,'Narino '),
 	(57,25,25486,'Nemocon'),
 	(57,25,25488,'Nilo'),
 	(57,25,25489,'Nimaima'),
@@ -610,7 +610,7 @@ VALUES
 	(57,25,25649,'San Bernardo'),
 	(57,25,25653,'San Cayetano '),
 	(57,25,25658,'San Francisco '),
-	(57,25,25662,'San Juan de Rio Seco'),
+	(57,25,25662,'San Juan De Rio Seco'),
 	(57,25,25718,'Sasaima'),
 	(57,25,25736,'Sesquile'),
 	(57,25,25740,'Sibate'),
@@ -655,8 +655,8 @@ VALUES
 	(57,27,27077,'Bajo Baudo'),
 	(57,27,27099,'Bojaya'),
 	(57,27,27135,'El Canton De San Pablo'),
-	(57,27,27150,'CARMEN DEL DARIEN'),
-	(57,27,27160,'CERTEGUI'),
+	(57,27,27150,'Carmen Del Darien'),
+	(57,27,27160,'Certegui'),
 	(57,27,27205,'Condoto'),
 	(57,27,27245,'El Carmen De Atrato'),
 	(57,27,27250,'El Litoral Del San Juan'),
@@ -665,10 +665,10 @@ VALUES
 	(57,27,27413,'Lloro'),
 	(57,27,27425,'Medio Atrato'),
 	(57,27,27430,'Medio Baudo'),
-	(57,27,27450,'MEDIO SAN JUAN'),
+	(57,27,27450,'Medio San Juan'),
 	(57,27,27491,'Novita'),
 	(57,27,27495,'Nuqui'),
-	(57,27,27580,'RIO IRO'),
+	(57,27,27580,'Rio Iro'),
 	(57,27,27600,'Rio Quito'),
 	(57,27,27615,'Riosucio '),
 	(57,27,27660,'San Jose Del Palmar'),
@@ -714,7 +714,7 @@ VALUES
 	(57,41,41872,'Villavieja'),
 	(57,41,41885,'Yaguara'),
 	(57,44,44001,'Riohacha'),
-	(57,44,44035,'ALBANIA'),
+	(57,44,44035,'Albania'),
 	(57,44,44078,'Barrancas'),
 	(57,44,44090,'Dibulla'),
 	(57,44,44098,'Distraccion'),
@@ -729,7 +729,7 @@ VALUES
 	(57,44,44855,'Urumita'),
 	(57,44,44874,'Villanueva '),
 	(57,47,47001,'Santa Marta'),
-	(57,47,47030,'ALGARROBO'),
+	(57,47,47030,'Algarrobo'),
 	(57,47,47053,'Aracataca'),
 	(57,47,47058,'Ariguani'),
 	(57,47,47161,'Cerro San Antonio'),
@@ -737,13 +737,13 @@ VALUES
 	(57,47,47189,'Cienaga '),
 	(57,47,47205,'Concordia'),
 	(57,47,47245,'El Banco'),
-	(57,47,47258,'El Piñon'),
+	(57,47,47258,'El Pinon'),
 	(57,47,47268,'El Reten'),
 	(57,47,47288,'Fundacion'),
 	(57,47,47318,'Guamal '),
-	(57,47,47460,'NUEVA GRANADA'),
+	(57,47,47460,'Nueva Granada'),
 	(57,47,47541,'Pedraza'),
-	(57,47,47545,'Pijiño del Carmen'),
+	(57,47,47545,'Pijino Del Carmen'),
 	(57,47,47551,'Pivijay'),
 	(57,47,47555,'Plato'),
 	(57,47,47570,'Puebloviejo'),
@@ -753,10 +753,10 @@ VALUES
 	(57,47,47692,'San Sebastian Buenavista'),
 	(57,47,47703,'San Zenon'),
 	(57,47,47707,'Santa Ana'),
-	(57,47,47720,'SANTA BARBARA DE PINTO'),
+	(57,47,47720,'Santa Barbara De Pinto'),
 	(57,47,47745,'Sitionuevo'),
 	(57,47,47798,'Tenerife'),
-	(57,47,47960,'ZAPAYAN'),
+	(57,47,47960,'Zapayan'),
 	(57,47,47980,'Zona Bananera'),
 	(57,50,50001,'Villavicencio'),
 	(57,50,50006,'Acacias'),
@@ -787,22 +787,22 @@ VALUES
 	(57,50,50686,'San Juanito'),
 	(57,50,50689,'San Martin'),
 	(57,50,50711,'Vistahermosa'),
-	(57,52,5201,'52079 - Junin'),
-	(57,52,5202,'52079 - Olaya Herrera'),
-	(57,52,5203,'52079 - El Diviso'),
-	(57,52,5204,'52079 - La Playa'),
-	(57,52,5205,'52079 - Altaquer'),
-	(57,52,5206,'52203 - Genova'),
-	(57,52,5207,'52258 - Las Mesas'),
-	(57,52,5208,'52418 - Sotomayor'),
-	(57,52,5209,'52435 - Piedrancha'),
-	(57,52,5210,'52540 - El Ejido'),
-	(57,52,5211,'52585 - El Espino'),
-	(57,52,5212,'52786 - El Remolino'),
-	(57,52,5213,'52835 - Imbili'),
-	(57,52,5214,'52835 - Espriella'),
-	(57,52,5215,'52835 - Guayacana'),
-	(57,52,5216,'52835 - Llorente'),
+	(57,52,5201,'Junin'),
+	(57,52,5202,'Olaya Herrera'),
+	(57,52,5203,'El Diviso'),
+	(57,52,5204,'La Playa'),
+	(57,52,5205,'Altaquer'),
+	(57,52,5206,'Genova'),
+	(57,52,5207,'Las Mesas'),
+	(57,52,5208,'Sotomayor'),
+	(57,52,5209,'Piedrancha'),
+	(57,52,5210,'El Ejido'),
+	(57,52,5211,'El Espino'),
+	(57,52,5212,'El Remolino'),
+	(57,52,5213,'Imbili'),
+	(57,52,5214,'Espriella'),
+	(57,52,5215,'Guayacana'),
+	(57,52,5216,'Llorente'),
 	(57,52,52001,'Pasto'),
 	(57,52,52019,'Alban'),
 	(57,52,52022,'Aldana'),
@@ -820,7 +820,7 @@ VALUES
 	(57,52,52233,'Cumbitara'),
 	(57,52,52240,'Chachagüi'),
 	(57,52,52250,'El Charco'),
-	(57,52,52254,'Peñol'),
+	(57,52,52254,'Penol'),
 	(57,52,52256,'El Rosario'),
 	(57,52,52258,'El Tablon Gomez'),
 	(57,52,52260,'El Tambo '),
@@ -842,7 +842,7 @@ VALUES
 	(57,52,52427,'Magüi'),
 	(57,52,52435,'Mallama'),
 	(57,52,52473,'Mosquera '),
-	(57,52,52480,'Nariño '),
+	(57,52,52480,'Narino '),
 	(57,52,52490,'Olaya Herrera'),
 	(57,52,52506,'Ospina'),
 	(57,52,52520,'Francisco Pizarro'),
@@ -891,7 +891,7 @@ VALUES
 	(57,54,54405,'Los Patios'),
 	(57,54,54418,'Lourdes'),
 	(57,54,54480,'Mutiscua'),
-	(57,54,54498,'Ocaña'),
+	(57,54,54498,'Ocana'),
 	(57,54,54518,'Pamplona'),
 	(57,54,54520,'Pamplonita'),
 	(57,54,54553,'Puerto Santander '),
@@ -922,7 +922,7 @@ VALUES
 	(57,66,66001,'Pereira'),
 	(57,66,66045,'Apia'),
 	(57,66,66075,'Balboa '),
-	(57,66,66088,'Belen de Umbria'),
+	(57,66,66088,'Belen De Umbria'),
 	(57,66,66170,'Dosquebradas'),
 	(57,66,66318,'Guatica'),
 	(57,66,66383,'La Celia'),
@@ -931,7 +931,7 @@ VALUES
 	(57,66,66456,'Mistrato'),
 	(57,66,66572,'Pueblo Rico'),
 	(57,66,66594,'Quinchia'),
-	(57,66,66682,'Santa Rosa de Cabal'),
+	(57,66,66682,'Santa Rosa De Cabal'),
 	(57,66,66687,'Santuario'),
 	(57,68,68001,'Bucaramanga'),
 	(57,68,68013,'Aguada '),
@@ -960,7 +960,7 @@ VALUES
 	(57,68,68229,'Curiti'),
 	(57,68,68235,'El Carmen De Chucuri'),
 	(57,68,68245,'El Guacamayo'),
-	(57,68,68250,'El Peñon'),
+	(57,68,68250,'El Penon'),
 	(57,68,68255,'El Playon'),
 	(57,68,68264,'Encino'),
 	(57,68,68266,'Enciso'),
@@ -1025,9 +1025,9 @@ VALUES
 	(57,70,70124,'Caimito'),
 	(57,70,70204,'Coloso '),
 	(57,70,70215,'Corozal'),
-	(57,70,70221,'COVEÑAS'),
+	(57,70,70221,'Covenas'),
 	(57,70,70230,'Chalan'),
-	(57,70,70233,'EL ROBLE'),
+	(57,70,70233,'El Roble'),
 	(57,70,70235,'Galeras'),
 	(57,70,70265,'Guaranda'),
 	(57,70,70400,'La Union '),
@@ -1038,7 +1038,7 @@ VALUES
 	(57,70,70523,'Palmito'),
 	(57,70,70670,'Sampues'),
 	(57,70,70678,'San Benito Abad'),
-	(57,70,70702,'San Juan De BETULIA'),
+	(57,70,70702,'San Juan De Betulia'),
 	(57,70,70708,'San Marcos'),
 	(57,70,70713,'San Onofre'),
 	(57,70,70717,'San Pedro '),
@@ -1084,7 +1084,7 @@ VALUES
 	(57,73,73616,'Rio Blanco'),
 	(57,73,73622,'Roncesvalles'),
 	(57,73,73624,'Rovira'),
-	(57,73,73671,'Saldaña'),
+	(57,73,73671,'Saldana'),
 	(57,73,73675,'San Antonio'),
 	(57,73,73678,'San Luis '),
 	(57,73,73686,'Santa Isabel'),
@@ -1161,14 +1161,14 @@ VALUES
 	(57,85,85410,'Tauramena'),
 	(57,85,85430,'Trinidad'),
 	(57,85,85440,'Villanueva '),
-	(57,86,8601,'86568 - Santana'),
-	(57,86,8602,'86749 - San Pedro'),
-	(57,86,8603,'86749 - San Francisco'),
-	(57,86,8604,'86757 - La Dorada'),
-	(57,86,8605,'86865 - El Placer'),
-	(57,86,8606,'86865 - El Tigre'),
-	(57,86,8607,'86865 - La Hormiga'),
-	(57,86,8608,'86885 - Puerto Umbria'),
+	(57,86,8601,'Santana'),
+	(57,86,8602,'San Pedro'),
+	(57,86,8603,'San Francisco'),
+	(57,86,8604,'La Dorada'),
+	(57,86,8605,'El Placer'),
+	(57,86,8606,'El Tigre'),
+	(57,86,8607,'La Hormiga'),
+	(57,86,8608,'Puerto Umbria'),
 	(57,86,86001,'Mocoa'),
 	(57,86,86219,'Colon '),
 	(57,86,86320,'Orito'),
@@ -1183,7 +1183,7 @@ VALUES
 	(57,86,86865,'Valle Del Guamez'),
 	(57,86,86885,'Villa Garzon '),
 	(57,88,88001,'San Andres'),
-	(57,88,88564,'PROVIDENCIA'),
+	(57,88,88564,'Providencia'),
 	(57,91,91001,'Leticia'),
 	(57,91,91263,'El Encanto '),
 	(57,91,91405,'La Chorrera '),
@@ -1192,34 +1192,33 @@ VALUES
 	(57,91,91460,'Miriti Parana'),
 	(57,91,91530,'Puerto Alegria '),
 	(57,91,91536,'Puerto Arica '),
-	(57,91,91540,'Puerto Nariño '),
+	(57,91,91540,'Puerto Narino '),
 	(57,91,91669,'Puerto Santander '),
 	(57,91,91798,'Tarapaca '),
 	(57,94,94001,'Inirida'),
 	(57,94,94343,'Barranco Minas'),
-	(57,94,94663,'MAPIRIPANA'),
+	(57,94,94663,'Mapiripana'),
 	(57,94,94883,'San Felipe'),
 	(57,94,94884,'Puerto Colombia '),
 	(57,94,94885,'La Guadalupe'),
 	(57,94,94886,'Cacahual'),
 	(57,94,94887,'Pana Pana'),
 	(57,94,94888,'Morichal Nuevo'),
-	(57,95,95001,'San Jose del Guaviare'),
-	(57,95,95015,'CALAMAR'),
+	(57,95,95001,'San Jose Del Guaviare'),
+	(57,95,95015,'Calamar'),
 	(57,95,95025,'El Retorno '),
-	(57,95,95200,'MIRAFLORES'),
+	(57,95,95200,'Miraflores'),
 	(57,97,97001,'Mitu'),
 	(57,97,97161,'Caruru'),
 	(57,97,97511,'Pacoa'),
 	(57,97,97666,'Taraira'),
 	(57,97,97777,'Papunahua'),
 	(57,97,97889,'Yavarate'),
-	(57,99,99,'Cliente Recoge Mercancia'),
 	(57,99,9902,'Vichada'),
-	(57,99,99001,'Puerto Carreño'),
+	(57,99,99001,'Puerto Carreno'),
 	(57,99,99524,'La Primavera'),
 	(57,99,99624,'Santa Rosalia '),
-	(57,99,99773,'Cumaribo ');
+	(57,99,99773,'Cumaribon');
 
 /*!40000 ALTER TABLE `nb_city_tbl` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1301,7 +1300,9 @@ VALUES
 	(55,'options','dataSource','string',NULL),
 	(56,'options','dateFormat','string',NULL),
 	(57,'options','onFieldChange','string',NULL),
-	(58,'options','noneLabel','string','none');
+	(58,'options','noneLabel','string','none'),
+	(59,'options','removeDefaultNone','boolean',NULL),
+	(60,'options','dependencies','array',NULL);
 
 /*!40000 ALTER TABLE `nb_config_frmwrk_tbl` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1400,6 +1401,11 @@ LOCK TABLES `nb_forms_tbl` WRITE;
 
 INSERT INTO `nb_forms_tbl` (`nb_id_page_fld`, `nb_id_pr_schema_fld`, `nb_config_frmwrk_id_fld`, `nb_schem_value_fld`)
 VALUES
+	('addcustomer','nb_nombre_fld',24,'Nombre/Razon Social'),
+	('addcustomer','nb_nombre_fld',11,'true'),
+	('addcustomer','nb_nombre_fld',13,'string'),
+	('addcustomer','nb_ciudadexp_fld',59,'false'),
+	('addcustomer','nb_ciudadexp_fld',58,'Seleccione Ciudad'),
 	('error','image',13,'strinrg'),
 	('error','image',32,'image'),
 	('error','image',35,'bootstrap-display'),
@@ -1408,12 +1414,38 @@ VALUES
 	('home','image',35,'bootstrap-display'),
 	('login','Campo1',11,'true'),
 	('login','Campo1',13,'string'),
-	('login','Campo1',24,'Email'),
+	('login','Campo1',24,'Usuario'),
 	('login','Campo2',6,'password'),
 	('login','Campo2',9,'^[a-zA-Z0-9_]+$'),
 	('login','Campo2',11,'true'),
 	('login','Campo2',13,'string'),
-	('login','Campo2',24,'Password');
+	('login','Campo2',24,'Password'),
+	('addcustomer','nb_ciudadexp_fld',55,'../Events/ValoresCampo.php?campo=city'),
+	('addcustomer','nb_ciudadexp_fld',32,'select'),
+	('addcustomer','nb_ciudadexp_fld',24,'Lugar de Expedicion'),
+	('addcustomer','nb_ciudadexp_fld',13,'integer'),
+	('addcustomer','nb_ciudadexp_fld',11,'false'),
+	('addcustomer','nb_sexo_fld',55,'../Events/ValoresCampo.php?campo=nb_sexo_fld'),
+	('addcustomer','nb_sexo_fld',58,'Seleccione Sexo'),
+	('addcustomer','nb_sexo_fld',59,'false'),
+	('addcustomer','nb_sexo_fld',13,'integer'),
+	('addcustomer','nb_sexo_fld',24,'Sexo'),
+	('addcustomer','nb_sexo_fld',11,'false'),
+	('addcustomer','nb_sexo_fld',32,'select'),
+	('addcustomer','nb_numerodoc_fld',11,'true'),
+	('addcustomer','nb_tipodoc_fld',59,'false'),
+	('addcustomer','nb_tipodoc_fld',58,'Seleccione Tipo de Documento'),
+	('addcustomer','nb_tipodoc_fld',55,'../Events/ValoresCampo.php?campo=nb_tipodoc_fld'),
+	('addcustomer','nb_tipodoc_fld',32,'select'),
+	('addcustomer','nb_numerodoc_fld',13,'string'),
+	('addcustomer','nb_tipodoc_fld',24,'Tipo de Documento'),
+	('addcustomer','nb_tipodoc_fld',13,'integer'),
+	('addcustomer','nb_numerodoc_fld',24,'Numero documento'),
+	('addcustomer','nb_tipodoc_fld',11,'true'),
+	('addcustomer','nb_fechaexp_fld',6,'date'),
+	('addcustomer','nb_fechaexp_fld',24,'Fecha Expedicion'),
+	('addcustomer','nb_fechanac_fld',6,'date'),
+	('addcustomer','nb_fechanac_fld',24,'Fecha de Nacimiento');
 
 /*!40000 ALTER TABLE `nb_forms_tbl` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1443,7 +1475,11 @@ INSERT INTO `nb_navigation_tbl` (`nb_id_page_fld`, `nb_sec_fld`, `nb_parent_fld`
 VALUES
 	('error',1,0,1,'Home','home','fa fa-home','N'),
 	('home',1,0,1,'Home','home','fa fa-home','N'),
-	('home',41,0,6,'Cerrar sesion',NULL,'fa fa-sign-out','N'),
+	('addcustomer',4,2,2,'Ingresar Cliente','addcustomer','fa fa-plus-circle','N'),
+	('addcustomer',3,2,1,'Consultar Clientes',NULL,'fa fa-search','N'),
+	('addcustomer',2,0,2,'Clientes',NULL,'fa fa-user','N'),
+	('addcustomer',1,0,1,'Home','home','fa fa-home','N'),
+	('home',41,0,6,'Cerrar sesion','login','fa fa-sign-out','N'),
 	('home',40,0,5,'Ayuda',NULL,'fa fa-life-buoy','N'),
 	('home',39,36,3,'Modificar FUEC',NULL,'fa fa-pencil-square-o','N'),
 	('home',38,36,2,'Ingresar FUEC',NULL,'fa fa-plus-circle','N'),
@@ -1477,8 +1513,41 @@ VALUES
 	('home',3,2,1,'Consultar Clientes',NULL,'fa fa-search','N'),
 	('home',11,6,2,'Propietarios',NULL,'fa fa-male','N'),
 	('home',2,0,2,'Clientes',NULL,'fa fa-user','N'),
-	('home',4,2,2,'Ingresar Cliente',NULL,'fa fa-plus-circle','N'),
-	('home',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N');
+	('home',4,2,2,'Ingresar Cliente','addcustomer','fa fa-plus-circle','N'),
+	('home',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',41,0,6,'Cerrar sesion','login','fa fa-sign-out','N'),
+	('addcustomer',40,0,5,'Ayuda',NULL,'fa fa-life-buoy','N'),
+	('addcustomer',39,36,3,'Modificar FUEC',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',38,36,2,'Ingresar FUEC',NULL,'fa fa-plus-circle','N'),
+	('addcustomer',37,36,1,'Consultar FUEC',NULL,'fa fa-search','N'),
+	('addcustomer',36,31,2,'FUEC',NULL,'fa fa-newspaper-o','N'),
+	('addcustomer',35,32,3,'Modificar Contratos',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',34,32,2,'Ingresar Contratos',NULL,'fa fa-plus-circle','N'),
+	('addcustomer',33,32,1,'Consultar Contratos',NULL,'fa fa-search','N'),
+	('addcustomer',32,31,1,'Contratos',NULL,'fa fa-file','N'),
+	('addcustomer',31,0,4,'Planillas',NULL,'fa fa-book','N'),
+	('addcustomer',26,23,3,'Modificar Documentos',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',25,23,2,'Ingresar Documentos',NULL,'fa fa-plus-circle','N'),
+	('addcustomer',24,23,1,'Consultar Documentos',NULL,'fa fa-search','N'),
+	('addcustomer',23,6,5,'Documentacion',NULL,'fa fa-file-text-o','N'),
+	('addcustomer',22,19,3,'Modificar Mantenimiento',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',21,19,2,'Ingresar Mantenimiento',NULL,'fa fa-plus-circle','N'),
+	('addcustomer',20,19,1,'Consultar Mantenimiento',NULL,'fa fa-search','N'),
+	('addcustomer',19,6,4,'Mantenimiento',NULL,'fa fa-wrench','N'),
+	('addcustomer',18,15,3,'Modificar Conductor',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',17,15,2,'Ingresar Conductor',NULL,'fa fa-plus-circle','N'),
+	('addcustomer',16,15,1,'Consultar Conductores',NULL,'fa fa-search','N'),
+	('addcustomer',15,6,3,'Conductores',NULL,'fa fa-users','N'),
+	('addcustomer',14,11,3,'Modificar Propietarios',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',13,11,2,'Ingresar Propietarios',NULL,'fa fa-plus-circle','N'),
+	('addcustomer',12,11,1,'Consultar Propietarios',NULL,'fa fa-search','N'),
+	('addcustomer',11,6,2,'Propietarios',NULL,'fa fa-male','N'),
+	('addcustomer',10,7,3,'Modificar Vehiculos',NULL,'fa fa-pencil-square-o','N'),
+	('addcustomer',9,7,2,'Ingresar Vehiculos',NULL,'fa fa-plus-circle','N'),
+	('addcustomer',8,7,1,'Consultar Vehiculos',NULL,'fa fa-search','N'),
+	('addcustomer',7,6,1,'Vehiculos',NULL,'fa fa-bus','N'),
+	('addcustomer',6,0,3,'Transporte',NULL,'fa fa-road','N'),
+	('addcustomer',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N');
 
 /*!40000 ALTER TABLE `nb_navigation_tbl` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1507,7 +1576,8 @@ INSERT INTO `nb_option_tbl` (`nb_id_page_fld`, `nb_typealpaca_fld`, `nb_renderfo
 VALUES
 	('login','form','true','../Events/','validateuser','post',NULL),
 	('error','image','false',NULL,NULL,NULL,NULL),
-	('home','image','false',NULL,NULL,NULL,NULL);
+	('home','image','false',NULL,NULL,NULL,NULL),
+	('addcustomer','wizard','false','../Events/','addcustomer','post',NULL);
 
 /*!40000 ALTER TABLE `nb_option_tbl` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1560,7 +1630,8 @@ INSERT INTO `nb_pages_tbl` (`nb_id_page_fld`, `nb_page_title_fld`, `nb_page_styl
 VALUES
 	('error','Error',NULL,'alpaca','false'),
 	('home','Inicio Administradores',NULL,'alpaca','false'),
-	('login','Login de Usuario','formsSimple','alpaca','false');
+	('login','Login de Usuario','formsSimple','alpaca','false'),
+	('addcustomer','Ingreso Clientes','forms','alpaca','false');
 
 /*!40000 ALTER TABLE `nb_pages_tbl` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1582,6 +1653,7 @@ LOCK TABLES `nb_role_pag_tbl` WRITE;
 
 INSERT INTO `nb_role_pag_tbl` (`nb_id_role_fld`, `nb_id_page_fld`)
 VALUES
+	(1,'addcustomer'),
 	(1,'error'),
 	(1,'home'),
 	(1,'login');
@@ -1634,7 +1706,8 @@ INSERT INTO `nb_schema_tbl` (`nb_id_page_fld`, `nb_title_fld`, `nb_description_f
 VALUES
 	('error','Error  login',NULL,'object'),
 	('home','Menu Principal',NULL,'object'),
-	('login','Bienvenidos',NULL,'object');
+	('login','Bienvenidos',NULL,'object'),
+	('addcustomer','Ingreso Clientes','','object');
 
 /*!40000 ALTER TABLE `nb_schema_tbl` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1708,6 +1781,21 @@ CREATE TABLE `nb_value_tbl` (
   PRIMARY KEY (`nb_id_value_fld`,`nb_id_pr_schema_fld`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+LOCK TABLES `nb_value_tbl` WRITE;
+/*!40000 ALTER TABLE `nb_value_tbl` DISABLE KEYS */;
+
+INSERT INTO `nb_value_tbl` (`nb_id_pr_schema_fld`, `nb_id_value_fld`, `nb_value_fld`)
+VALUES
+	('nb_tipodoc_fld',5,'Cedula de Extranjeria'),
+	('nb_tipodoc_fld',4,'Pasaporte'),
+	('nb_tipodoc_fld',2,'NIT'),
+	('nb_tipodoc_fld',3,'Tarjeta de Identidad'),
+	('nb_tipodoc_fld',1,'Cedula de Ciudadania'),
+	('nb_sexo_fld',1,'Masculino'),
+	('nb_sexo_fld',2,'Femenino');
+
+/*!40000 ALTER TABLE `nb_value_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table nb_wizard_bind_tbl
@@ -1716,7 +1804,7 @@ CREATE TABLE `nb_value_tbl` (
 DROP TABLE IF EXISTS `nb_wizard_bind_tbl`;
 
 CREATE TABLE `nb_wizard_bind_tbl` (
-  `nb_id_wizard_bind` int(11) NOT NULL AUTO_INCREMENT,
+  `nb_id_wizard_bind` int(11) NOT NULL,
   `nb_id_page_fld` varchar(255) COLLATE latin1_spanish_ci DEFAULT NULL,
   `nb_id_pr_schema_fld` varchar(255) COLLATE latin1_spanish_ci DEFAULT NULL,
   `nb_id_wizard_step` int(11) DEFAULT NULL,
@@ -1724,6 +1812,22 @@ CREATE TABLE `nb_wizard_bind_tbl` (
   PRIMARY KEY (`nb_id_wizard_bind`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 
+LOCK TABLES `nb_wizard_bind_tbl` WRITE;
+/*!40000 ALTER TABLE `nb_wizard_bind_tbl` DISABLE KEYS */;
+
+INSERT INTO `nb_wizard_bind_tbl` (`nb_id_wizard_bind`, `nb_id_page_fld`, `nb_id_pr_schema_fld`, `nb_id_wizard_step`, `nb_id_wizard_step_order`)
+VALUES
+	(2,'addcustomer','nb_numerodoc_fld',1,2),
+	(1,'addcustomer','nb_tipodoc_fld',1,1),
+	(5,'addcustomer','nb_sexo_fld',1,5),
+	(3,'addcustomer','nb_ciudadexp_fld',1,3),
+	(4,'addcustomer','nb_fechaexp_fld',1,4),
+	(7,'addcustomer','nb_fechanac_fld',1,7),
+	(0,NULL,NULL,NULL,NULL),
+	(6,'addcustomer','nb_nombre_fld',1,6);
+
+/*!40000 ALTER TABLE `nb_wizard_bind_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table nb_wizard_buttons_tbl
@@ -1741,6 +1845,17 @@ CREATE TABLE `nb_wizard_buttons_tbl` (
   PRIMARY KEY (`nb_id_wizard_button`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 
+LOCK TABLES `nb_wizard_buttons_tbl` WRITE;
+/*!40000 ALTER TABLE `nb_wizard_buttons_tbl` DISABLE KEYS */;
+
+INSERT INTO `nb_wizard_buttons_tbl` (`nb_id_wizard_button`, `nb_id_page_fld`, `nb_wizard_button_name`, `nb_wizard_button_title`, `nb_wizard_button_validate`, `nb_wizard_button_click`)
+VALUES
+	(3,'addcustomer','previous','Atras',NULL,NULL),
+	(2,'addcustomer','next','Siguiente',NULL,NULL),
+	(1,'addcustomer','submit','Guardar',NULL,NULL);
+
+/*!40000 ALTER TABLE `nb_wizard_buttons_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table nb_wizard_steps_tbl
@@ -1751,13 +1866,20 @@ DROP TABLE IF EXISTS `nb_wizard_steps_tbl`;
 CREATE TABLE `nb_wizard_steps_tbl` (
   `nb_id_wizard_step` int(11) NOT NULL,
   `nb_id_page_fld` varchar(255) DEFAULT NULL,
-  `nb_wizard_step` int(11) NOT NULL DEFAULT '0',
   `nb_wizard_step_title` varchar(255) DEFAULT NULL,
   `nb_wizard_step_desc` varchar(255) DEFAULT NULL,
-  `nb_id_wizard_fld` int(11) DEFAULT NULL,
   PRIMARY KEY (`nb_id_wizard_step`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+LOCK TABLES `nb_wizard_steps_tbl` WRITE;
+/*!40000 ALTER TABLE `nb_wizard_steps_tbl` DISABLE KEYS */;
+
+INSERT INTO `nb_wizard_steps_tbl` (`nb_id_wizard_step`, `nb_id_page_fld`, `nb_wizard_step_title`, `nb_wizard_step_desc`)
+VALUES
+	(1,'addcustomer','Datos Basicos','Informacion Basica Clientes');
+
+/*!40000 ALTER TABLE `nb_wizard_steps_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table nb_wizard_tbl
@@ -1774,6 +1896,15 @@ CREATE TABLE `nb_wizard_tbl` (
   PRIMARY KEY (`nb_id_wizard`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 
+LOCK TABLES `nb_wizard_tbl` WRITE;
+/*!40000 ALTER TABLE `nb_wizard_tbl` DISABLE KEYS */;
+
+INSERT INTO `nb_wizard_tbl` (`nb_id_wizard`, `nb_id_page_fld`, `nb_wizard_title`, `nb_wizard_desc`, `nb_wizard_show_progress`)
+VALUES
+	(1,'addcustomer','','','true');
+
+/*!40000 ALTER TABLE `nb_wizard_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table nbd_role_user_tbl
@@ -1815,7 +1946,7 @@ LOCK TABLES `nbd_user_tbl` WRITE;
 
 INSERT INTO `nbd_user_tbl` (`nbd_id_user_fld`, `nbd_email_fld`, `nbd_password_fld`)
 VALUES
-	(1,'carlosgc4@gmail.com','e53db2b5b93254fddb55de43a3323970');
+	(1,'nabu','e53db2b5b93254fddb55de43a3323970');
 
 /*!40000 ALTER TABLE `nbd_user_tbl` ENABLE KEYS */;
 UNLOCK TABLES;

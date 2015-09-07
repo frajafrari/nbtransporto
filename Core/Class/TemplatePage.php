@@ -142,15 +142,10 @@ class TemplatePage
 	<header>
 			<table width="100%">
 				<tr>
-					<td colspan="1">&nbsp&nbsp<img src="../Images/logo.png" ></td>
+					<td colspan="1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="../Images/logo.png" ></td>
 				</tr>
 				<tr>
-					<td class="slogan">&nbsp&nbsp Semilla de innovación para dar vida a tus ideas</td>
-					<td class="banderas"  colspan="1">
-						<img src="../Images/col-flag.png" >
-						<img src="../Images/uk-flag.png" >
-                        <img src="../Images/bra-flag.png" >
-					</td>
+					<td class="slogan">&nbsp&nbsp Software Administardor Empresas de Transporte</td>
 				</tr>
 			</table>
 		</header>
