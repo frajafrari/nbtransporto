@@ -276,15 +276,16 @@ class Utilities
     
     function fixedJson($json) {
         
-        $v1=chr(34)."function("; $c1="function(";
-        $v2=chr(59).chr(125).chr(34); $c2=chr(59).chr(125);
-        $v3=chr(40).chr(92).chr(34); $c3=chr(40).chr(34);
-        $v4=chr(92).chr(34).chr(43); $c4=chr(34).chr(43);
-        //$v5=chr(43).chr(43);$c5=chr(34);
-        //$v6=chr(42).chr(42).chr(34);$c6='';
+        $v1=chr(34)."function("; $c1="function(";               // "function(   se cambia por function(
+        $v2=chr(59).chr(125).chr(34); $c2=chr(59).chr(125);     // ;}"          se cambia por  ;}    
+        $v3=chr(40).chr(92).chr(34); $c3=chr(40).chr(34);       // (\"          se cambia por  ("
+        $v4=chr(92).chr(34).chr(43); $c4=chr(34).chr(43);       // \"+          se cambia por  "+  
+        $v5=chr(34).chr(123); $c5=chr(123);                     // "{           se cambia por  {
+        $v6=chr(92).chr(34);  $c6=chr(34);                      // \"           se cambia por  "
+        $v7=chr(125).chr(34);  $c7=chr(125);                    // }"           se cambia por  }
         
-        $chars= array($v1,$v2,$v3,$v4,$v5,$v6);
-        $correc= array($c1,$c2,$c3,$c4,$c5,$c6);
+        $chars= array($v1,$v2,$v3,$v4,$v5,$v6,$v7);
+        $correc= array($c1,$c2,$c3,$c4,$c5,$c6,$c7);
         
         for ($i=0; $i<sizeof($chars); $i++)
             $json=str_replace($chars[$i],$correc[$i],$json);    

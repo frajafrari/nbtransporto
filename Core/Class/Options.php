@@ -104,7 +104,7 @@ class Options{
 					$row[2]= false;
 			}
 
-			$fields[$row[0]]=$row[2];
+            $fields[$row[0]]=$row[2];
         }
 
 		return $fields;
