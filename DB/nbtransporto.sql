@@ -1,5 +1,5 @@
 # Host: localhost  (Version: 5.6.16)
-# Date: 2015-09-09 16:05:10
+# Date: 2015-09-10 15:50:01
 # Generator: MySQL-Front 5.3  (Build 4.198)
 
 /*!40101 SET NAMES latin1 */;
@@ -102,7 +102,7 @@ CREATE TABLE `nb_config_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_config_tbl` DISABLE KEYS */;
-INSERT INTO `nb_config_tbl` VALUES ('nabu','Software Administrador Empresas de Transporte');
+INSERT INTO `nb_config_tbl` VALUES ('nabu','S.I. Empresas de Transporte');
 /*!40000 ALTER TABLE `nb_config_tbl` ENABLE KEYS */;
 
 #
@@ -161,6 +161,7 @@ CREATE TABLE `nb_datagrid_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_datagrid_tbl` DISABLE KEYS */;
+INSERT INTO `nb_datagrid_tbl` VALUES ('srccustomer',37,'Clientes'),('srccustomer',38,'true'),('srccustomer',39,'44'),('srccustomer',40,'true'),('srccustomer',41,'true'),('srccustomer',43,'350'),('srccustomer',44,'nbd_customer_vw');
 /*!40000 ALTER TABLE `nb_datagrid_tbl` ENABLE KEYS */;
 
 #
@@ -181,6 +182,7 @@ CREATE TABLE `nb_datagridcol_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_datagridcol_tbl` DISABLE KEYS */;
+INSERT INTO `nb_datagridcol_tbl` VALUES ('srccustomer',1,45,'Estado'),('srccustomer',1,46,'nb_estado_fld'),('srccustomer',1,47,'true'),('srccustomer',1,48,'true'),('srccustomer',1,54,'center'),('srccustomer',2,45,'Tipo Documento'),('srccustomer',2,46,'nb_tipodoc_fld'),('srccustomer',2,48,'true'),('srccustomer',2,54,'center'),('srccustomer',3,45,'Numero Documento'),('srccustomer',3,46,'nb_numerodoc_fld'),('srccustomer',3,48,'true'),('srccustomer',3,54,'center'),('srccustomer',4,45,'Nombre/Razon Social'),('srccustomer',4,46,'nb_nombre_fld'),('srccustomer',4,48,'true'),('srccustomer',4,54,'center'),('srccustomer',5,45,'Departamento'),('srccustomer',5,46,'nb_state_fld'),('srccustomer',5,48,'true'),('srccustomer',5,54,'center'),('srccustomer',6,45,'Ciudad'),('srccustomer',6,46,'nb_add_city_fld'),('srccustomer',6,48,'true'),('srccustomer',6,54,'center'),('srccustomer',7,45,'Direccion'),('srccustomer',7,46,'nb_add_direccion_fld'),('srccustomer',7,48,'true'),('srccustomer',7,54,'center'),('srccustomer',8,45,'Telefono'),('srccustomer',8,46,'nb_add_telefono_fld'),('srccustomer',8,48,'true'),('srccustomer',8,54,'center'),('srccustomer',9,45,'Celular'),('srccustomer',9,46,'nb_add_celular_fld'),('srccustomer',9,48,'true'),('srccustomer',9,54,'center'),('srccustomer',10,45,'Email'),('srccustomer',10,46,'nb_add_email_fld'),('srccustomer',10,48,'true'),('srccustomer',10,54,'center');
 /*!40000 ALTER TABLE `nb_datagridcol_tbl` ENABLE KEYS */;
 
 #
@@ -201,7 +203,7 @@ CREATE TABLE `nb_forms_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_forms_tbl` DISABLE KEYS */;
-INSERT INTO `nb_forms_tbl` VALUES ('addcustomer','nb_add_celular_fld',11,'false'),('addcustomer','nb_add_celular_fld',13,'string'),('addcustomer','nb_add_celular_fld',24,'Celular'),('addcustomer','nb_add_city_fld',11,'false'),('addcustomer','nb_add_city_fld',13,'integer'),('addcustomer','nb_add_city_fld',24,'Municipio'),('addcustomer','nb_add_city_fld',32,'select'),('addcustomer','nb_add_city_fld',55,'../Events/ValoresCampo.php?campo=city'),('addcustomer','nb_add_city_fld',58,'Seleccione Municipio'),('addcustomer','nb_add_city_fld',59,'false'),('addcustomer','nb_add_direccion_fld',11,'false'),('addcustomer','nb_add_direccion_fld',13,'string'),('addcustomer','nb_add_direccion_fld',24,'Direccion'),('addcustomer','nb_add_email_fld',11,'false'),('addcustomer','nb_add_email_fld',13,'string'),('addcustomer','nb_add_email_fld',24,'Email'),('addcustomer','nb_add_telefono_fld',11,'false'),('addcustomer','nb_add_telefono_fld',13,'string'),('addcustomer','nb_add_telefono_fld',24,'Telefono'),('addcustomer','nb_ciudadexp_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_ciudadexp_fld',11,'false'),('addcustomer','nb_ciudadexp_fld',13,'integer'),('addcustomer','nb_ciudadexp_fld',24,'Lugar de Expedicion'),('addcustomer','nb_ciudadexp_fld',32,'select'),('addcustomer','nb_ciudadexp_fld',55,'../Events/ValoresCampo.php?campo=city'),('addcustomer','nb_ciudadexp_fld',58,'Seleccione Ciudad'),('addcustomer','nb_ciudadexp_fld',59,'false'),('addcustomer','nb_ciudadexp_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_fechaexp_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_fechaexp_fld',6,'date'),('addcustomer','nb_fechaexp_fld',24,'Fecha Expedicion'),('addcustomer','nb_fechaexp_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_fechanac_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_fechanac_fld',6,'date'),('addcustomer','nb_fechanac_fld',24,'Fecha de Nacimiento'),('addcustomer','nb_fechanac_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_nombre_fld',11,'true'),('addcustomer','nb_nombre_fld',13,'string'),('addcustomer','nb_nombre_fld',24,'Nombre/Razon Social'),('addcustomer','nb_numerodoc_fld',11,'true'),('addcustomer','nb_numerodoc_fld',13,'string'),('addcustomer','nb_numerodoc_fld',24,'Numero Documento'),('addcustomer','nb_rlegal_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_rlegal_fld',11,'false'),('addcustomer','nb_rlegal_fld',13,'string'),('addcustomer','nb_rlegal_fld',24,'Representante Legal'),('addcustomer','nb_rlegal_fld',60,'{\"nb_tipodoc_fld\": [\"3\"] }'),('addcustomer','nb_sexo_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_sexo_fld',11,'false'),('addcustomer','nb_sexo_fld',13,'integer'),('addcustomer','nb_sexo_fld',24,'Sexo'),('addcustomer','nb_sexo_fld',32,'select'),('addcustomer','nb_sexo_fld',55,'../Events/ValoresCampo.php?campo=nb_sexo_fld'),('addcustomer','nb_sexo_fld',58,'Seleccione Sexo'),('addcustomer','nb_sexo_fld',59,'false'),('addcustomer','nb_sexo_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_state_fld',11,'false'),('addcustomer','nb_state_fld',13,'integer'),('addcustomer','nb_state_fld',24,'Departamento'),('addcustomer','nb_state_fld',32,'select'),('addcustomer','nb_state_fld',55,'../Events/ValoresCampo.php?campo=state'),('addcustomer','nb_state_fld',58,'Seleccione Departamento'),('addcustomer','nb_state_fld',59,'false'),('addcustomer','nb_tipodoc_fld',11,'true'),('addcustomer','nb_tipodoc_fld',13,'integer'),('addcustomer','nb_tipodoc_fld',24,'Tipo de Documento'),('addcustomer','nb_tipodoc_fld',32,'select'),('addcustomer','nb_tipodoc_fld',55,'../Events/ValoresCampo.php?campo=nb_tipodoc_fld'),('addcustomer','nb_tipodoc_fld',58,'Seleccione Tipo de Documento'),('addcustomer','nb_tipodoc_fld',59,'false'),('error','image',13,'strinrg'),('error','image',32,'image'),('error','image',35,'bootstrap-display'),('home','image',13,'string'),('home','image',32,'image'),('home','image',35,'bootstrap-display'),('login','Campo1',11,'true'),('login','Campo1',13,'string'),('login','Campo1',24,'Usuario'),('login','Campo2',6,'password'),('login','Campo2',9,'^[a-zA-Z0-9_]+$'),('login','Campo2',11,'true'),('login','Campo2',13,'string'),('login','Campo2',24,'Password');
+INSERT INTO `nb_forms_tbl` VALUES ('addcustomer','nb_add_celular_fld',6,'phone'),('addcustomer','nb_add_celular_fld',11,'false'),('addcustomer','nb_add_celular_fld',13,'string'),('addcustomer','nb_add_celular_fld',24,'Celular'),('addcustomer','nb_add_city_fld',11,'false'),('addcustomer','nb_add_city_fld',13,'integer'),('addcustomer','nb_add_city_fld',24,'Municipio'),('addcustomer','nb_add_city_fld',32,'select'),('addcustomer','nb_add_city_fld',55,'../Events/ValoresCampo.php?campo=city'),('addcustomer','nb_add_city_fld',58,'Seleccione Municipio'),('addcustomer','nb_add_city_fld',59,'false'),('addcustomer','nb_add_date_fld',10,'true'),('addcustomer','nb_add_date_fld',11,'false'),('addcustomer','nb_add_date_fld',13,'string'),('addcustomer','nb_add_date_fld',24,'Fecha Creacion'),('addcustomer','nb_add_direccion_fld',11,'false'),('addcustomer','nb_add_direccion_fld',13,'string'),('addcustomer','nb_add_direccion_fld',24,'Direccion'),('addcustomer','nb_add_email_fld',6,'email'),('addcustomer','nb_add_email_fld',11,'false'),('addcustomer','nb_add_email_fld',13,'string'),('addcustomer','nb_add_email_fld',24,'Email'),('addcustomer','nb_add_telefono_fld',6,'phone'),('addcustomer','nb_add_telefono_fld',11,'false'),('addcustomer','nb_add_telefono_fld',13,'string'),('addcustomer','nb_add_telefono_fld',24,'Telefono'),('addcustomer','nb_add_user_fld',10,'true'),('addcustomer','nb_add_user_fld',11,'false'),('addcustomer','nb_add_user_fld',13,'string'),('addcustomer','nb_add_user_fld',24,'Usuario Creacion'),('addcustomer','nb_ciudadexp_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_ciudadexp_fld',11,'false'),('addcustomer','nb_ciudadexp_fld',13,'integer'),('addcustomer','nb_ciudadexp_fld',24,'Lugar de Expedicion'),('addcustomer','nb_ciudadexp_fld',32,'select'),('addcustomer','nb_ciudadexp_fld',55,'../Events/ValoresCampo.php?campo=city'),('addcustomer','nb_ciudadexp_fld',58,'Seleccione Ciudad'),('addcustomer','nb_ciudadexp_fld',59,'false'),('addcustomer','nb_ciudadexp_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_estado_fld',11,'true'),('addcustomer','nb_estado_fld',13,'integer'),('addcustomer','nb_estado_fld',24,'Estado'),('addcustomer','nb_estado_fld',32,'select'),('addcustomer','nb_estado_fld',55,'../Events/ValoresCampo.php?campo=nb_estado_fld'),('addcustomer','nb_estado_fld',58,'Seleccione Estado'),('addcustomer','nb_estado_fld',59,'false'),('addcustomer','nb_fechaexp_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_fechaexp_fld',6,'date'),('addcustomer','nb_fechaexp_fld',24,'Fecha Expedicion'),('addcustomer','nb_fechaexp_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_fechanac_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_fechanac_fld',6,'date'),('addcustomer','nb_fechanac_fld',24,'Fecha de Nacimiento'),('addcustomer','nb_fechanac_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_mdf_date_fld',10,'true'),('addcustomer','nb_mdf_date_fld',11,'false'),('addcustomer','nb_mdf_date_fld',13,'string'),('addcustomer','nb_mdf_date_fld',24,'Fecha Modificacion'),('addcustomer','nb_mdf_user_fld',10,'true'),('addcustomer','nb_mdf_user_fld',11,'false'),('addcustomer','nb_mdf_user_fld',13,'string'),('addcustomer','nb_mdf_user_fld',24,'Usuario Modificacion'),('addcustomer','nb_nombre_fld',11,'true'),('addcustomer','nb_nombre_fld',13,'string'),('addcustomer','nb_nombre_fld',24,'Nombre/Razon Social'),('addcustomer','nb_numerodoc_fld',11,'true'),('addcustomer','nb_numerodoc_fld',13,'string'),('addcustomer','nb_numerodoc_fld',24,'Numero Documento'),('addcustomer','nb_observaciones_fld',11,'false'),('addcustomer','nb_observaciones_fld',13,'string'),('addcustomer','nb_observaciones_fld',20,'Ingrese observaciones generales'),('addcustomer','nb_observaciones_fld',24,'Observaciones'),('addcustomer','nb_observaciones_fld',32,'textarea'),('addcustomer','nb_rlegal_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_rlegal_fld',11,'false'),('addcustomer','nb_rlegal_fld',13,'string'),('addcustomer','nb_rlegal_fld',24,'Representante Legal'),('addcustomer','nb_rlegal_fld',60,'{\"nb_tipodoc_fld\": [\"3\"] }'),('addcustomer','nb_sexo_fld',2,'nb_tipodoc_fld'),('addcustomer','nb_sexo_fld',11,'false'),('addcustomer','nb_sexo_fld',13,'integer'),('addcustomer','nb_sexo_fld',24,'Sexo'),('addcustomer','nb_sexo_fld',32,'select'),('addcustomer','nb_sexo_fld',55,'../Events/ValoresCampo.php?campo=nb_sexo_fld'),('addcustomer','nb_sexo_fld',58,'Seleccione Sexo'),('addcustomer','nb_sexo_fld',59,'false'),('addcustomer','nb_sexo_fld',60,'{\"nb_tipodoc_fld\": [\"1\",\"2\",\"4\",\"5\"] }'),('addcustomer','nb_state_fld',11,'false'),('addcustomer','nb_state_fld',13,'integer'),('addcustomer','nb_state_fld',24,'Departamento'),('addcustomer','nb_state_fld',32,'select'),('addcustomer','nb_state_fld',55,'../Events/ValoresCampo.php?campo=state'),('addcustomer','nb_state_fld',58,'Seleccione Departamento'),('addcustomer','nb_state_fld',59,'false'),('addcustomer','nb_tipodoc_fld',11,'true'),('addcustomer','nb_tipodoc_fld',13,'integer'),('addcustomer','nb_tipodoc_fld',24,'Tipo de Documento'),('addcustomer','nb_tipodoc_fld',32,'select'),('addcustomer','nb_tipodoc_fld',55,'../Events/ValoresCampo.php?campo=nb_tipodoc_fld'),('addcustomer','nb_tipodoc_fld',58,'Seleccione Tipo de Documento'),('addcustomer','nb_tipodoc_fld',59,'false'),('error','image',13,'strinrg'),('error','image',32,'image'),('error','image',35,'bootstrap-display'),('home','image',13,'string'),('home','image',32,'image'),('home','image',35,'bootstrap-display'),('login','Campo1',11,'true'),('login','Campo1',13,'string'),('login','Campo1',24,'Usuario'),('login','Campo2',6,'password'),('login','Campo2',9,'^[a-zA-Z0-9_]+$'),('login','Campo2',11,'true'),('login','Campo2',13,'string'),('login','Campo2',24,'Password');
 /*!40000 ALTER TABLE `nb_forms_tbl` ENABLE KEYS */;
 
 #
@@ -249,7 +251,7 @@ CREATE TABLE `nb_navigation_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_navigation_tbl` DISABLE KEYS */;
-INSERT INTO `nb_navigation_tbl` VALUES ('addcustomer',1,0,1,'Home','home','fa fa-home','N'),('addcustomer',2,0,2,'Clientes',NULL,'fa fa-user','N'),('addcustomer',3,2,1,'Consultar Clientes',NULL,'fa fa-search','N'),('addcustomer',4,2,2,'Ingresar Cliente','addcustomer','fa fa-plus-circle','N'),('addcustomer',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N'),('addcustomer',6,0,3,'Transporte',NULL,'fa fa-road','N'),('addcustomer',7,6,1,'Vehiculos',NULL,'fa fa-bus','N'),('addcustomer',8,7,1,'Consultar Vehiculos',NULL,'fa fa-search','N'),('addcustomer',9,7,2,'Ingresar Vehiculos',NULL,'fa fa-plus-circle','N'),('addcustomer',10,7,3,'Modificar Vehiculos',NULL,'fa fa-pencil-square-o','N'),('addcustomer',11,6,2,'Propietarios',NULL,'fa fa-male','N'),('addcustomer',12,11,1,'Consultar Propietarios',NULL,'fa fa-search','N'),('addcustomer',13,11,2,'Ingresar Propietarios',NULL,'fa fa-plus-circle','N'),('addcustomer',14,11,3,'Modificar Propietarios',NULL,'fa fa-pencil-square-o','N'),('addcustomer',15,6,3,'Conductores',NULL,'fa fa-users','N'),('addcustomer',16,15,1,'Consultar Conductores',NULL,'fa fa-search','N'),('addcustomer',17,15,2,'Ingresar Conductor',NULL,'fa fa-plus-circle','N'),('addcustomer',18,15,3,'Modificar Conductor',NULL,'fa fa-pencil-square-o','N'),('addcustomer',19,6,4,'Mantenimiento',NULL,'fa fa-wrench','N'),('addcustomer',20,19,1,'Consultar Mantenimiento',NULL,'fa fa-search','N'),('addcustomer',21,19,2,'Ingresar Mantenimiento',NULL,'fa fa-plus-circle','N'),('addcustomer',22,19,3,'Modificar Mantenimiento',NULL,'fa fa-pencil-square-o','N'),('addcustomer',23,6,5,'Documentacion',NULL,'fa fa-file-text-o','N'),('addcustomer',24,23,1,'Consultar Documentos',NULL,'fa fa-search','N'),('addcustomer',25,23,2,'Ingresar Documentos',NULL,'fa fa-plus-circle','N'),('addcustomer',26,23,3,'Modificar Documentos',NULL,'fa fa-pencil-square-o','N'),('addcustomer',31,0,4,'Planillas',NULL,'fa fa-book','N'),('addcustomer',32,31,1,'Contratos',NULL,'fa fa-file','N'),('addcustomer',33,32,1,'Consultar Contratos',NULL,'fa fa-search','N'),('addcustomer',34,32,2,'Ingresar Contratos',NULL,'fa fa-plus-circle','N'),('addcustomer',35,32,3,'Modificar Contratos',NULL,'fa fa-pencil-square-o','N'),('addcustomer',36,31,2,'FUEC',NULL,'fa fa-newspaper-o','N'),('addcustomer',37,36,1,'Consultar FUEC',NULL,'fa fa-search','N'),('addcustomer',38,36,2,'Ingresar FUEC',NULL,'fa fa-plus-circle','N'),('addcustomer',39,36,3,'Modificar FUEC',NULL,'fa fa-pencil-square-o','N'),('addcustomer',40,0,5,'Ayuda',NULL,'fa fa-life-buoy','N'),('addcustomer',41,0,6,'Cerrar sesion','login','fa fa-sign-out','N'),('error',1,0,1,'Home','home','fa fa-home','N'),('home',1,0,1,'Home','home','fa fa-home','N'),('home',2,0,2,'Clientes',NULL,'fa fa-user','N'),('home',3,2,1,'Consultar Clientes',NULL,'fa fa-search','N'),('home',4,2,2,'Ingresar Cliente','addcustomer','fa fa-plus-circle','N'),('home',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N'),('home',6,0,3,'Transporte',NULL,'fa fa-road','N'),('home',7,6,1,'Vehiculos',NULL,'fa fa-bus','N'),('home',8,7,1,'Consultar Vehiculos',NULL,'fa fa-search','N'),('home',9,7,2,'Ingresar Vehiculos',NULL,'fa fa-plus-circle','N'),('home',10,7,3,'Modificar Vehiculos',NULL,'fa fa-pencil-square-o','N'),('home',11,6,2,'Propietarios',NULL,'fa fa-male','N'),('home',12,11,1,'Consultar Propietarios',NULL,'fa fa-search','N'),('home',13,11,2,'Ingresar Propietarios',NULL,'fa fa-plus-circle','N'),('home',14,11,3,'Modificar Propietarios',NULL,'fa fa-pencil-square-o','N'),('home',15,6,3,'Conductores',NULL,'fa fa-users','N'),('home',16,15,1,'Consultar Conductores',NULL,'fa fa-search','N'),('home',17,15,2,'Ingresar Conductor',NULL,'fa fa-plus-circle','N'),('home',18,15,3,'Modificar Conductor',NULL,'fa fa-pencil-square-o','N'),('home',19,6,4,'Mantenimiento',NULL,'fa fa-wrench','N'),('home',20,19,1,'Consultar Mantenimiento',NULL,'fa fa-search','N'),('home',21,19,2,'Ingresar Mantenimiento',NULL,'fa fa-plus-circle','N'),('home',22,19,3,'Modificar Mantenimiento',NULL,'fa fa-pencil-square-o','N'),('home',23,6,5,'Documentacion',NULL,'fa fa-file-text-o','N'),('home',24,23,1,'Consultar Documentos',NULL,'fa fa-search','N'),('home',25,23,2,'Ingresar Documentos',NULL,'fa fa-plus-circle','N'),('home',26,23,3,'Modificar Documentos',NULL,'fa fa-pencil-square-o','N'),('home',31,0,4,'Planillas',NULL,'fa fa-book','N'),('home',32,31,1,'Contratos',NULL,'fa fa-file','N'),('home',33,32,1,'Consultar Contratos',NULL,'fa fa-search','N'),('home',34,32,2,'Ingresar Contratos',NULL,'fa fa-plus-circle','N'),('home',35,32,3,'Modificar Contratos',NULL,'fa fa-pencil-square-o','N'),('home',36,31,2,'FUEC',NULL,'fa fa-newspaper-o','N'),('home',37,36,1,'Consultar FUEC',NULL,'fa fa-search','N'),('home',38,36,2,'Ingresar FUEC',NULL,'fa fa-plus-circle','N'),('home',39,36,3,'Modificar FUEC',NULL,'fa fa-pencil-square-o','N'),('home',40,0,5,'Ayuda',NULL,'fa fa-life-buoy','N'),('home',41,0,6,'Cerrar sesion','login','fa fa-sign-out','N');
+INSERT INTO `nb_navigation_tbl` VALUES ('addcustomer',1,0,1,'Home','home','fa fa-home','N'),('addcustomer',2,0,2,'Clientes',NULL,'fa fa-user','N'),('addcustomer',3,2,1,'Consultar Clientes','srccustomer','fa fa-search','N'),('addcustomer',4,2,2,'Ingresar Cliente','addcustomer','fa fa-plus-circle','N'),('addcustomer',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N'),('addcustomer',6,0,3,'Transporte',NULL,'fa fa-road','N'),('addcustomer',7,6,1,'Vehiculos',NULL,'fa fa-bus','N'),('addcustomer',8,7,1,'Consultar Vehiculos',NULL,'fa fa-search','N'),('addcustomer',9,7,2,'Ingresar Vehiculos',NULL,'fa fa-plus-circle','N'),('addcustomer',10,7,3,'Modificar Vehiculos',NULL,'fa fa-pencil-square-o','N'),('addcustomer',11,6,2,'Propietarios',NULL,'fa fa-male','N'),('addcustomer',12,11,1,'Consultar Propietarios',NULL,'fa fa-search','N'),('addcustomer',13,11,2,'Ingresar Propietarios',NULL,'fa fa-plus-circle','N'),('addcustomer',14,11,3,'Modificar Propietarios',NULL,'fa fa-pencil-square-o','N'),('addcustomer',15,6,3,'Conductores',NULL,'fa fa-users','N'),('addcustomer',16,15,1,'Consultar Conductores',NULL,'fa fa-search','N'),('addcustomer',17,15,2,'Ingresar Conductor',NULL,'fa fa-plus-circle','N'),('addcustomer',18,15,3,'Modificar Conductor',NULL,'fa fa-pencil-square-o','N'),('addcustomer',19,6,4,'Mantenimiento',NULL,'fa fa-wrench','N'),('addcustomer',20,19,1,'Consultar Mantenimiento',NULL,'fa fa-search','N'),('addcustomer',21,19,2,'Ingresar Mantenimiento',NULL,'fa fa-plus-circle','N'),('addcustomer',22,19,3,'Modificar Mantenimiento',NULL,'fa fa-pencil-square-o','N'),('addcustomer',23,6,5,'Documentacion',NULL,'fa fa-file-text-o','N'),('addcustomer',24,23,1,'Consultar Documentos',NULL,'fa fa-search','N'),('addcustomer',25,23,2,'Ingresar Documentos',NULL,'fa fa-plus-circle','N'),('addcustomer',26,23,3,'Modificar Documentos',NULL,'fa fa-pencil-square-o','N'),('addcustomer',31,0,4,'Planillas',NULL,'fa fa-book','N'),('addcustomer',32,31,1,'Contratos',NULL,'fa fa-file','N'),('addcustomer',33,32,1,'Consultar Contratos',NULL,'fa fa-search','N'),('addcustomer',34,32,2,'Ingresar Contratos',NULL,'fa fa-plus-circle','N'),('addcustomer',35,32,3,'Modificar Contratos',NULL,'fa fa-pencil-square-o','N'),('addcustomer',36,31,2,'FUEC',NULL,'fa fa-newspaper-o','N'),('addcustomer',37,36,1,'Consultar FUEC',NULL,'fa fa-search','N'),('addcustomer',38,36,2,'Ingresar FUEC',NULL,'fa fa-plus-circle','N'),('addcustomer',39,36,3,'Modificar FUEC',NULL,'fa fa-pencil-square-o','N'),('addcustomer',40,0,5,'Ayuda',NULL,'fa fa-life-buoy','N'),('addcustomer',41,0,6,'Cerrar sesion','login','fa fa-sign-out','N'),('error',1,0,1,'Home','home','fa fa-home','N'),('home',1,0,1,'Home','home','fa fa-home','N'),('home',2,0,2,'Clientes',NULL,'fa fa-user','N'),('home',3,2,1,'Consultar Clientes','srccustomer','fa fa-search','N'),('home',4,2,2,'Ingresar Cliente','addcustomer','fa fa-plus-circle','N'),('home',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N'),('home',6,0,3,'Transporte',NULL,'fa fa-road','N'),('home',7,6,1,'Vehiculos',NULL,'fa fa-bus','N'),('home',8,7,1,'Consultar Vehiculos',NULL,'fa fa-search','N'),('home',9,7,2,'Ingresar Vehiculos',NULL,'fa fa-plus-circle','N'),('home',10,7,3,'Modificar Vehiculos',NULL,'fa fa-pencil-square-o','N'),('home',11,6,2,'Propietarios',NULL,'fa fa-male','N'),('home',12,11,1,'Consultar Propietarios',NULL,'fa fa-search','N'),('home',13,11,2,'Ingresar Propietarios',NULL,'fa fa-plus-circle','N'),('home',14,11,3,'Modificar Propietarios',NULL,'fa fa-pencil-square-o','N'),('home',15,6,3,'Conductores',NULL,'fa fa-users','N'),('home',16,15,1,'Consultar Conductores',NULL,'fa fa-search','N'),('home',17,15,2,'Ingresar Conductor',NULL,'fa fa-plus-circle','N'),('home',18,15,3,'Modificar Conductor',NULL,'fa fa-pencil-square-o','N'),('home',19,6,4,'Mantenimiento',NULL,'fa fa-wrench','N'),('home',20,19,1,'Consultar Mantenimiento',NULL,'fa fa-search','N'),('home',21,19,2,'Ingresar Mantenimiento',NULL,'fa fa-plus-circle','N'),('home',22,19,3,'Modificar Mantenimiento',NULL,'fa fa-pencil-square-o','N'),('home',23,6,5,'Documentacion',NULL,'fa fa-file-text-o','N'),('home',24,23,1,'Consultar Documentos',NULL,'fa fa-search','N'),('home',25,23,2,'Ingresar Documentos',NULL,'fa fa-plus-circle','N'),('home',26,23,3,'Modificar Documentos',NULL,'fa fa-pencil-square-o','N'),('home',31,0,4,'Planillas',NULL,'fa fa-book','N'),('home',32,31,1,'Contratos',NULL,'fa fa-file','N'),('home',33,32,1,'Consultar Contratos',NULL,'fa fa-search','N'),('home',34,32,2,'Ingresar Contratos',NULL,'fa fa-plus-circle','N'),('home',35,32,3,'Modificar Contratos',NULL,'fa fa-pencil-square-o','N'),('home',36,31,2,'FUEC',NULL,'fa fa-newspaper-o','N'),('home',37,36,1,'Consultar FUEC',NULL,'fa fa-search','N'),('home',38,36,2,'Ingresar FUEC',NULL,'fa fa-plus-circle','N'),('home',39,36,3,'Modificar FUEC',NULL,'fa fa-pencil-square-o','N'),('home',40,0,5,'Ayuda',NULL,'fa fa-life-buoy','N'),('home',41,0,6,'Cerrar sesion','login','fa fa-sign-out','N'),('srccustomer',1,0,1,'Home','home','fa fa-home','N'),('srccustomer',2,0,2,'Clientes',NULL,'fa fa-user','N'),('srccustomer',3,2,1,'Consultar Clientes','srccustomer','fa fa-search','N'),('srccustomer',4,2,2,'Ingresar Cliente','addcustomer','fa fa-plus-circle','N'),('srccustomer',5,2,3,'Modificar Cliente',NULL,'fa fa-pencil-square-o','N'),('srccustomer',6,0,3,'Transporte',NULL,'fa fa-road','N'),('srccustomer',7,6,1,'Vehiculos',NULL,'fa fa-bus','N'),('srccustomer',8,7,1,'Consultar Vehiculos',NULL,'fa fa-search','N'),('srccustomer',9,7,2,'Ingresar Vehiculos',NULL,'fa fa-plus-circle','N'),('srccustomer',10,7,3,'Modificar Vehiculos',NULL,'fa fa-pencil-square-o','N'),('srccustomer',11,6,2,'Propietarios',NULL,'fa fa-male','N'),('srccustomer',12,11,1,'Consultar Propietarios',NULL,'fa fa-search','N'),('srccustomer',13,11,2,'Ingresar Propietarios',NULL,'fa fa-plus-circle','N'),('srccustomer',14,11,3,'Modificar Propietarios',NULL,'fa fa-pencil-square-o','N'),('srccustomer',15,6,3,'Conductores',NULL,'fa fa-users','N'),('srccustomer',16,15,1,'Consultar Conductores',NULL,'fa fa-search','N'),('srccustomer',17,15,2,'Ingresar Conductor',NULL,'fa fa-plus-circle','N'),('srccustomer',18,15,3,'Modificar Conductor',NULL,'fa fa-pencil-square-o','N'),('srccustomer',19,6,4,'Mantenimiento',NULL,'fa fa-wrench','N'),('srccustomer',20,19,1,'Consultar Mantenimiento',NULL,'fa fa-search','N'),('srccustomer',21,19,2,'Ingresar Mantenimiento',NULL,'fa fa-plus-circle','N'),('srccustomer',22,19,3,'Modificar Mantenimiento',NULL,'fa fa-pencil-square-o','N'),('srccustomer',23,6,5,'Documentacion',NULL,'fa fa-file-text-o','N'),('srccustomer',24,23,1,'Consultar Documentos',NULL,'fa fa-search','N'),('srccustomer',25,23,2,'Ingresar Documentos',NULL,'fa fa-plus-circle','N'),('srccustomer',26,23,3,'Modificar Documentos',NULL,'fa fa-pencil-square-o','N'),('srccustomer',31,0,4,'Planillas',NULL,'fa fa-book','N'),('srccustomer',32,31,1,'Contratos',NULL,'fa fa-file','N'),('srccustomer',33,32,1,'Consultar Contratos',NULL,'fa fa-search','N'),('srccustomer',34,32,2,'Ingresar Contratos',NULL,'fa fa-plus-circle','N'),('srccustomer',35,32,3,'Modificar Contratos',NULL,'fa fa-pencil-square-o','N'),('srccustomer',36,31,2,'FUEC',NULL,'fa fa-newspaper-o','N'),('srccustomer',37,36,1,'Consultar FUEC',NULL,'fa fa-search','N'),('srccustomer',38,36,2,'Ingresar FUEC',NULL,'fa fa-plus-circle','N'),('srccustomer',39,36,3,'Modificar FUEC',NULL,'fa fa-pencil-square-o','N'),('srccustomer',40,0,5,'Ayuda',NULL,'fa fa-life-buoy','N'),('srccustomer',41,0,6,'Cerrar sesion','login','fa fa-sign-out','N');
 /*!40000 ALTER TABLE `nb_navigation_tbl` ENABLE KEYS */;
 
 #
@@ -314,7 +316,7 @@ CREATE TABLE `nb_pageattribute_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_pageattribute_tbl` DISABLE KEYS */;
-INSERT INTO `nb_pageattribute_tbl` VALUES ('addcustomer',1),('addcustomer',2),('addcustomer',3),('addcustomer',4),('addcustomer',5),('addcustomer',6),('addcustomer',7),('addcustomer',8),('addcustomer',9),('addcustomer',10),('addcustomer',12),('addcustomer',13),('addcustomer',15),('addcustomer',16),('addcustomer',17),('addcustomer',19),('addcustomer',22),('home',1),('home',2),('home',3),('home',4),('home',5),('home',6),('home',8),('home',9),('home',10),('home',12),('home',13),('home',22),('login',1),('login',2),('login',3),('login',4),('login',5),('login',6),('login',7),('login',8),('login',13);
+INSERT INTO `nb_pageattribute_tbl` VALUES ('addcustomer',1),('addcustomer',2),('addcustomer',3),('addcustomer',4),('addcustomer',5),('addcustomer',6),('addcustomer',7),('addcustomer',8),('addcustomer',9),('addcustomer',10),('addcustomer',12),('addcustomer',13),('addcustomer',15),('addcustomer',16),('addcustomer',17),('addcustomer',19),('addcustomer',22),('home',1),('home',2),('home',3),('home',4),('home',5),('home',6),('home',8),('home',9),('home',10),('home',12),('home',13),('home',22),('login',1),('login',2),('login',3),('login',4),('login',5),('login',6),('login',7),('login',8),('login',13),('srccustomer',1),('srccustomer',2),('srccustomer',3),('srccustomer',6),('srccustomer',9),('srccustomer',10),('srccustomer',12),('srccustomer',13),('srccustomer',16),('srccustomer',17),('srccustomer',18),('srccustomer',19),('srccustomer',20);
 /*!40000 ALTER TABLE `nb_pageattribute_tbl` ENABLE KEYS */;
 
 #
@@ -336,7 +338,7 @@ CREATE TABLE `nb_pages_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_pages_tbl` DISABLE KEYS */;
-INSERT INTO `nb_pages_tbl` VALUES ('addcustomer','Ingreso Clientes','forms','alpaca','false'),('error','Error',NULL,'alpaca','false'),('home','Inicio Administradores',NULL,'alpaca','false'),('login','Login de Usuario','formsSimple','alpaca','false');
+INSERT INTO `nb_pages_tbl` VALUES ('addcustomer','Ingreso Clientes','forms','alpaca','false'),('error','Error',NULL,'alpaca','false'),('home','Inicio Administradores',NULL,'alpaca','false'),('login','Login de Usuario','formsSimple','alpaca','false'),('srccustomer','Busqueda Cliente','dataGrids','datagrid','false');
 /*!40000 ALTER TABLE `nb_pages_tbl` ENABLE KEYS */;
 
 #
@@ -355,7 +357,7 @@ CREATE TABLE `nb_role_pag_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_role_pag_tbl` DISABLE KEYS */;
-INSERT INTO `nb_role_pag_tbl` VALUES (1,'addcustomer'),(1,'error'),(1,'home'),(1,'login');
+INSERT INTO `nb_role_pag_tbl` VALUES (1,'addcustomer'),(1,'error'),(1,'home'),(1,'login'),(1,'srccustomer');
 /*!40000 ALTER TABLE `nb_role_pag_tbl` ENABLE KEYS */;
 
 #
@@ -435,7 +437,7 @@ CREATE TABLE `nb_value_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_value_tbl` DISABLE KEYS */;
-INSERT INTO `nb_value_tbl` VALUES ('nb_tipodoc_fld','1','Cedula de Ciudadania'),('nb_tipodoc_fld','2','Tarjeta de Identidad'),('nb_tipodoc_fld','3','NIT'),('nb_tipodoc_fld','4','Pasaporte'),('nb_tipodoc_fld','5','Cedula de Extranjeria'),('nb_sexo_fld','F','Femenino'),('nb_sexo_fld','M','Masculino');
+INSERT INTO `nb_value_tbl` VALUES ('nb_estado_fld','0','Inactivo'),('nbd_person_tipo_fld','1','cliente'),('nb_estado_fld','1','Activo'),('nb_tipodoc_fld','1','Cedula de Ciudadania'),('nbd_person_tipo_fld','2','propietario'),('nb_tipodoc_fld','2','Tarjeta de Identidad'),('nbd_person_tipo_fld','3','transportador'),('nb_tipodoc_fld','3','NIT'),('nb_tipodoc_fld','4','Pasaporte'),('nb_tipodoc_fld','5','Cedula de Extranjeria'),('nb_sexo_fld','F','Femenino'),('nb_sexo_fld','M','Masculino');
 /*!40000 ALTER TABLE `nb_value_tbl` ENABLE KEYS */;
 
 #
@@ -457,7 +459,7 @@ CREATE TABLE `nb_wizard_bind_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_wizard_bind_tbl` DISABLE KEYS */;
-INSERT INTO `nb_wizard_bind_tbl` VALUES (1,'addcustomer','nb_tipodoc_fld',1,1),(2,'addcustomer','nb_numerodoc_fld',1,2),(3,'addcustomer','nb_ciudadexp_fld',1,3),(4,'addcustomer','nb_fechaexp_fld',1,4),(5,'addcustomer','nb_sexo_fld',1,5),(6,'addcustomer','nb_nombre_fld',1,6),(7,'addcustomer','nb_fechanac_fld',1,7),(8,'addcustomer','nb_rlegal_fld',1,8),(9,'addcustomer','nb_state_fld',2,1),(10,'addcustomer','nb_add_city_fld',2,2),(11,'addcustomer','nb_add_direccion_fld',2,3),(12,'addcustomer','nb_add_telefono_fld',2,4),(13,'addcustomer','nb_add_celular_fld',2,5),(14,'addcustomer','nb_add_email_fld',2,6);
+INSERT INTO `nb_wizard_bind_tbl` VALUES (1,'addcustomer','nb_tipodoc_fld',1,1),(2,'addcustomer','nb_numerodoc_fld',1,2),(3,'addcustomer','nb_ciudadexp_fld',1,3),(4,'addcustomer','nb_fechaexp_fld',1,4),(5,'addcustomer','nb_sexo_fld',1,5),(6,'addcustomer','nb_nombre_fld',1,6),(7,'addcustomer','nb_fechanac_fld',1,7),(8,'addcustomer','nb_rlegal_fld',1,8),(9,'addcustomer','nb_state_fld',2,1),(10,'addcustomer','nb_add_city_fld',2,2),(11,'addcustomer','nb_add_direccion_fld',2,3),(12,'addcustomer','nb_add_telefono_fld',2,4),(13,'addcustomer','nb_add_celular_fld',2,5),(14,'addcustomer','nb_add_email_fld',2,6),(15,'addcustomer','nb_estado_fld',3,1),(16,'addcustomer','nb_observaciones_fld',3,2),(17,'addcustomer','nb_add_user_fld',4,1),(18,'addcustomer','nb_add_date_fld',4,2),(19,'addcustomer','nb_mdf_user_fld',4,3),(20,'addcustomer','nb_mdf_date_fld',4,4);
 /*!40000 ALTER TABLE `nb_wizard_bind_tbl` ENABLE KEYS */;
 
 #
@@ -501,7 +503,7 @@ CREATE TABLE `nb_wizard_steps_tbl` (
 #
 
 /*!40000 ALTER TABLE `nb_wizard_steps_tbl` DISABLE KEYS */;
-INSERT INTO `nb_wizard_steps_tbl` VALUES (1,'addcustomer','Datos Basicos','Informacion Basica Clientes'),(2,'addcustomer','Datos Localizacion','Informacion de Contacto');
+INSERT INTO `nb_wizard_steps_tbl` VALUES (1,'addcustomer','1- Basicos','Informacion Basica Clientes'),(2,'addcustomer','2- Localizacion','Informacion de Contacto'),(3,'addcustomer','3- Negocio','Informacion Negocio'),(4,'addcustomer','4- Control','Informacion de Auditoria');
 /*!40000 ALTER TABLE `nb_wizard_steps_tbl` ENABLE KEYS */;
 
 #
@@ -525,6 +527,81 @@ CREATE TABLE `nb_wizard_tbl` (
 /*!40000 ALTER TABLE `nb_wizard_tbl` DISABLE KEYS */;
 INSERT INTO `nb_wizard_tbl` VALUES (1,'addcustomer','','','true');
 /*!40000 ALTER TABLE `nb_wizard_tbl` ENABLE KEYS */;
+
+#
+# Structure for table "nbd_address_tbl"
+#
+
+DROP TABLE IF EXISTS `nbd_address_tbl`;
+CREATE TABLE `nbd_address_tbl` (
+  `nbd_person_id_fld` int(11) NOT NULL DEFAULT '0',
+  `nb_state_fld` varchar(255) DEFAULT NULL,
+  `nb_add_city_fld` varchar(255) DEFAULT NULL,
+  `nb_add_direccion_fld` varchar(255) DEFAULT NULL,
+  `nb_add_telefono_fld` varchar(255) DEFAULT NULL,
+  `nb_add_celular_fld` varchar(255) DEFAULT NULL,
+  `nb_add_email_fld` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`nbd_person_id_fld`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+
+#
+# Data for table "nbd_address_tbl"
+#
+
+/*!40000 ALTER TABLE `nbd_address_tbl` DISABLE KEYS */;
+INSERT INTO `nbd_address_tbl` VALUES (1,'76','76001','Calle 21 N numero 9A-105 Apt 202','2252611','3012657760','carlosgc4@gmail.com');
+/*!40000 ALTER TABLE `nbd_address_tbl` ENABLE KEYS */;
+
+#
+# Structure for table "nbd_customer_tbl"
+#
+
+DROP TABLE IF EXISTS `nbd_customer_tbl`;
+CREATE TABLE `nbd_customer_tbl` (
+  `nbd_person_id_fld` int(11) NOT NULL AUTO_INCREMENT,
+  `nb_estado_fld` varchar(255) DEFAULT NULL,
+  `nb_observaciones_fld` blob,
+  `nb_add_user_fld` varchar(255) DEFAULT NULL,
+  `nb_add_date_fld` datetime DEFAULT NULL,
+  `nb_mdf_user_fld` varchar(255) DEFAULT NULL,
+  `nb_mdf_date_fld` datetime DEFAULT NULL,
+  PRIMARY KEY (`nbd_person_id_fld`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+#
+# Data for table "nbd_customer_tbl"
+#
+
+/*!40000 ALTER TABLE `nbd_customer_tbl` DISABLE KEYS */;
+INSERT INTO `nbd_customer_tbl` VALUES (1,'1',X'436C69656E746520646520507275656261','NABU','2015-09-10 14:41:34','NABU','2015-09-10 14:41:44');
+/*!40000 ALTER TABLE `nbd_customer_tbl` ENABLE KEYS */;
+
+#
+# Structure for table "nbd_person_tbl"
+#
+
+DROP TABLE IF EXISTS `nbd_person_tbl`;
+CREATE TABLE `nbd_person_tbl` (
+  `nbd_person_id_fld` int(11) NOT NULL AUTO_INCREMENT,
+  `nbd_person_tipo_fld` int(11) DEFAULT NULL,
+  `nb_tipodoc_fld` varchar(2) DEFAULT NULL,
+  `nb_numerodoc_fld` varchar(255) DEFAULT NULL,
+  `nb_ciudadexp_fld` varchar(255) DEFAULT NULL,
+  `nb_fechaexp_fld` varchar(255) DEFAULT NULL,
+  `nb_sexo_fld` varchar(255) DEFAULT NULL,
+  `nb_nombre_fld` varchar(255) DEFAULT NULL,
+  `nb_fechanac_fld` varchar(255) DEFAULT NULL,
+  `nb_rlegal_fld` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`nbd_person_id_fld`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+#
+# Data for table "nbd_person_tbl"
+#
+
+/*!40000 ALTER TABLE `nbd_person_tbl` DISABLE KEYS */;
+INSERT INTO `nbd_person_tbl` VALUES (1,1,'1','14800275','Tulua','2001-11-09','M','Carlos Alberto Garcia Cobo','1984-04-04',NULL);
+/*!40000 ALTER TABLE `nbd_person_tbl` ENABLE KEYS */;
 
 #
 # Structure for table "nbd_role_user_tbl"

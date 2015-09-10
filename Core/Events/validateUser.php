@@ -61,7 +61,8 @@ THE SOFTWARE.
 	}
 	else
 	{
-		unset($_SESSION['role']);
+        unset($_SESSION['role']);
+        header("location:../Pages/?p=error");
 	}
 	$db=$objUtilities->cx->desconectar();
 ?>

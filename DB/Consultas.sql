@@ -1,4 +1,4 @@
-﻿/*INSERTAR MENU */
+/*INSERTAR MENU */
 insert into nb_navigation_tbl
 select 
 'addcustomer',	
@@ -23,3 +23,6 @@ FROM NB_FORMS_TBL
 WHERE nb_id_page_fld='addcustomer'
 and  nb_id_pr_schema_fld ='nb_numerodoc_fld';
 
+/*Insertar Atributos*/
+insert into nb_pageattribute_tbl
+select 'srccustomer',nb_id_attribute_fld from nb_pageattribute_tbl where nb_id_page_fld='home'
