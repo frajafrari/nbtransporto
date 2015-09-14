@@ -1,5 +1,5 @@
 # Host: localhost  (Version: 5.6.16)
-# Date: 2015-09-10 15:50:01
+# Date: 2015-09-14 09:55:39
 # Generator: MySQL-Front 5.3  (Build 4.198)
 
 /*!40101 SET NAMES latin1 */;
@@ -566,7 +566,7 @@ CREATE TABLE `nbd_customer_tbl` (
   `nb_mdf_user_fld` varchar(255) DEFAULT NULL,
   `nb_mdf_date_fld` datetime DEFAULT NULL,
   PRIMARY KEY (`nbd_person_id_fld`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 #
 # Data for table "nbd_customer_tbl"
@@ -593,7 +593,7 @@ CREATE TABLE `nbd_person_tbl` (
   `nb_fechanac_fld` varchar(255) DEFAULT NULL,
   `nb_rlegal_fld` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`nbd_person_id_fld`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 #
 # Data for table "nbd_person_tbl"
@@ -641,3 +641,11 @@ CREATE TABLE `nbd_user_tbl` (
 /*!40000 ALTER TABLE `nbd_user_tbl` DISABLE KEYS */;
 INSERT INTO `nbd_user_tbl` VALUES (1,'nabu','e53db2b5b93254fddb55de43a3323970');
 /*!40000 ALTER TABLE `nbd_user_tbl` ENABLE KEYS */;
+
+#
+# Structure for table "nbd_customer_vw"
+#
+
+DROP VIEW IF EXISTS `nbd_customer_vw`;
+CREATE VIEW `nbd_customer_vw` AS 
+  select `a`.`nb_tipodoc_fld` AS `nb_tipodoc_fld`,`a`.`nb_numerodoc_fld` AS `nb_numerodoc_fld`,`a`.`nb_ciudadexp_fld` AS `nb_ciudadexp_fld`,`a`.`nb_fechaexp_fld` AS `nb_fechaexp_fld`,`a`.`nb_sexo_fld` AS `nb_sexo_fld`,`a`.`nb_nombre_fld` AS `nb_nombre_fld`,`a`.`nb_fechanac_fld` AS `nb_fechanac_fld`,`a`.`nb_rlegal_fld` AS `nb_rlegal_fld`,`c`.`nb_state_fld` AS `nb_state_fld`,`c`.`nb_add_city_fld` AS `nb_add_city_fld`,`c`.`nb_add_direccion_fld` AS `nb_add_direccion_fld`,`c`.`nb_add_telefono_fld` AS `nb_add_telefono_fld`,`c`.`nb_add_celular_fld` AS `nb_add_celular_fld`,`c`.`nb_add_email_fld` AS `nb_add_email_fld`,`b`.`nb_estado_fld` AS `nb_estado_fld`,`b`.`nb_observaciones_fld` AS `nb_observaciones_fld`,`b`.`nb_add_user_fld` AS `nb_add_user_fld`,`b`.`nb_add_date_fld` AS `nb_add_date_fld`,`b`.`nb_mdf_user_fld` AS `nb_mdf_user_fld`,`b`.`nb_mdf_date_fld` AS `nb_mdf_date_fld` from ((`nbd_person_tbl` `a` join `nbd_customer_tbl` `b`) join `nbd_address_tbl` `c`) where ((`a`.`nbd_person_id_fld` = `b`.`nbd_person_id_fld`) and (`b`.`nbd_person_id_fld` = `c`.`nbd_person_id_fld`));
