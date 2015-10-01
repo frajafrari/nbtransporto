@@ -27,30 +27,9 @@ THE SOFTWARE.
 
 */
 
-    include "../Class/Utilities.php";
+	include "../Class/NabuEvent.php";
 
-	$objUtilities = new Utilities();
-
-	$idPage=$_GET['p'];
-
-	$db = $objUtilities->cx->conectar();
-   
-    $result = $db->Execute("SELECT distinct nb_id_pr_Schema_fld FROM nb_forms_tbl where nb_id_page_fld ='$idPage'");
-
-	$insert = "INSERT INTO usr_" . $idPage . "_tbl VALUES(0";
-	while ($row = $result->FetchRow()){
-		if (isset($_POST[$row[0]])){
-			$insert .= ", '" . $_POST[$row[0]] . "'";
-		}
-	}
-	$insert .= ')';
-	echo $insert;
-	$result =$db->Execute($insert);
-
-	if ($result != null) {
-		$result = $db->Execute("SELECT nb_link_fld FROM nb_option_tbl where nb_id_page_fld = '$idPage'");
-		$row = $result->FetchRow();
-		header("location:../Pages/?p=" . $row[0]);
-	}
-	$db=$objUtilities->cx->desconectar();
+	$nabuEvent = new NabuEvent($_GET['p'], $_POST);
+	$location = $nabuEvent->Save();
+	header($location);
 ?>
